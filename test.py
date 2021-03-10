@@ -7,3 +7,15 @@ from flask import session
 import datetime
 if os.path.exists("env.py"):
     import env
+
+
+app = app_module.app
+
+app.config["TESTING"] = True
+app.config["WTF_CSRF_ENABLED"] = False
+app.config['MONGO_URI'] = os.environ.get("MONGO_URI")
+
+mongo = PyMongo(app)
+app_module.mongo = mongo
+
+
