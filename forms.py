@@ -8,3 +8,5 @@ from wtforms.validators import (
     DataRequired, Length, Regexp,
     Email, EqualTo, ValidationError)
 from flask_pymongo import PyMongo
+if os.path.exists("env.py"):
+    import env
