@@ -41,6 +41,12 @@ def life():
     return render_template("life.html", title="| Life")
 
 
+@app.route("/tips", methods=["GET", "POST"])
+def tips():
+    tips = list(mongo.db.tips.find())
+    return render_template("tips.html", title="| Tips", tips=tips)
+
+
 
 
 
