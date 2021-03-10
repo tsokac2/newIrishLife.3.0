@@ -5,3 +5,5 @@ from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from flask import session
 import datetime
+if os.path.exists("env.py"):
+    import env
