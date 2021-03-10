@@ -152,6 +152,13 @@ def update_tip(tip_id):
     return render_template("update_tip.html", tip=tip, categories=categories)
 
 
+@app.route("/delete_tip/<tip_id>")
+def delete_tip(tip_id):
+    mongo.db.tips.remove({"_id": ObjectId(tip_id)})
+    flash("Tip successfully deleted, add the new one!", "tip-deleted")
+    return redirect(url_for("add_tip"))
+
+
 
 
 
