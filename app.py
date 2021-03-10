@@ -54,6 +54,26 @@ def search():
     return render_template("search.html", tips=tips)
 
 
+@app.route("/registration", methods=["GET", "POST"])
+def registration():
+    form = RegisterForm()
+    if form.validate_on_submit():
+        register_user = mongo.db.users.find_one(
+            {"username": request.form.get("username").lower()})
+        user = {
+            "username": request.form.get("username").lower(),
+            "email": request.form.get("email"),
+            "image": request.form.get("image"),
+            "password": generate_password_hash(request.form.get("password")),
+            "date_created": datetime.datetime.utcnow()
+            }
+        mongo.db.users.insert_one(user)
+        session["user"] = request.form.get("username").lower()
+        flash("Welcome to your new profile!", "reg-success")
+        return redirect(url_for("profile", username=session["user"]))
+    return render_template("registration.html", title="Register", form=form)
+
+
 
 
 
