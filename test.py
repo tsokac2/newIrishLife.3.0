@@ -56,5 +56,12 @@ class AppTests(AppTestCase):
         assert res.status == "200 OK"
         assert "Life" in data
     
+    def test_tips(self):
+        """Test Tips page load response"""
+        res = self.client.get("/tips")
+        data = res.data.decode("utf-8")
+        assert res.status == "200 OK"
+        assert "Bits and pieces" in data
+    
     
 
