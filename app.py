@@ -36,6 +36,11 @@ def work():
     return render_template("work.html", title="| Work")
 
 
+@app.route("/life")
+def life():
+    return render_template("life.html", title="| Life")
+
+
 
 
 
