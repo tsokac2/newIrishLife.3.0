@@ -19,3 +19,11 @@ mongo = PyMongo(app)
 app_module.mongo = mongo
 
 
+class AppTestCase(unittest.TestCase):
+    def setUp(self):
+        self.client = app.test_client()
+        with app.app_context():
+            mongo.db.users.delete_many({})
+            mongo.db.tips.delete_many({})
+
+
