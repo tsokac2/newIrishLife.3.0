@@ -34,42 +34,42 @@ class AppTests(AppTestCase):
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Gandalf" in data
-    
+
     def test_trip(self):
         """Test Trip page load response"""
         res = self.client.get("/trip")
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Trip" in data
-    
+
     def test_work(self):
         """Test Work page load response"""
         res = self.client.get("/work")
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Work" in data
-    
+
     def test_life(self):
         """Test Life page load response"""
         res = self.client.get("/life")
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Life" in data
-    
+
     def test_tips(self):
         """Test Tips page load response"""
         res = self.client.get("/tips")
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Bits and pieces" in data
-    
+
     def test_signup(self):
         """Test Signup page load response"""
         res = self.client.get("/registration")
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Create Account" in data
-    
+
     def test_login(self):
         """Test Login page load response"""
         res = self.client.get("/login")
