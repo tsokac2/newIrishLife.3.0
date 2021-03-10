@@ -31,6 +31,11 @@ def trip():
     return render_template("trip.html", title="| Trip")
 
 
+@app.route("/work")
+def work():
+    return render_template("work.html", title="| Work")
+
+
 
 
 
