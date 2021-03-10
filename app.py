@@ -113,6 +113,26 @@ def logout():
     return redirect(url_for("home"))
 
 
+@app.route("/add_tip", methods=["GET", "POST"])
+def add_tip():
+    form = AddTip()
+    if form.validate_on_submit():
+        tip = {
+            "tip_category": request.form.get("tip_category"),
+            "tip_title": request.form.get("tip_title"),
+            "tip_description": request.form.get("tip_description"),
+            "date_added": datetime.datetime.utcnow(),
+            "created_by": session["user"]
+        }
+        mongo.db.tips.insert_one(tip)
+        flash("Tip successfully added!", "reg-success")
+        return redirect(url_for("tips"))
+
+    categories = mongo.db.categories.find().sort("tip_category", 1)
+    return render_template(
+        "add_tip.html", title="| Add Tip", form=form, categories=categories)
+
+
 
 
 
