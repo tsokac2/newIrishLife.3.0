@@ -69,5 +69,11 @@ class AppTests(AppTestCase):
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Create Account" in data
-
+    
+    def test_login(self):
+        """Test Login page load response"""
+        res = self.client.get("/login")
+        data = res.data.decode("utf-8")
+        assert res.status == "200 OK"
+        assert "Already a member!" in data
 
