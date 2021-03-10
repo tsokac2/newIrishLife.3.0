@@ -63,5 +63,11 @@ class AppTests(AppTestCase):
         assert res.status == "200 OK"
         assert "Bits and pieces" in data
     
-    
+    def test_signup(self):
+        """Test Signup page load response"""
+        res = self.client.get("/registration")
+        data = res.data.decode("utf-8")
+        assert res.status == "200 OK"
+        assert "Create Account" in data
+
 
