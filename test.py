@@ -34,3 +34,10 @@ class AppTests(AppTestCase):
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Gandalf" in data
+    
+    def test_trip(self):
+        """Test Trip page load response"""
+        res = self.client.get("/trip")
+        data = res.data.decode("utf-8")
+        assert res.status == "200 OK"
+        assert "Trip" in data
