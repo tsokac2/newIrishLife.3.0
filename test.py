@@ -41,3 +41,10 @@ class AppTests(AppTestCase):
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Trip" in data
+    
+    def test_work(self):
+        """Test Work page load response"""
+        res = self.client.get("/work")
+        data = res.data.decode("utf-8")
+        assert res.status == "200 OK"
+        assert "Work" in data
