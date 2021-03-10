@@ -69,3 +69,20 @@ class LoginForm(FlaskForm):
         render_kw={"placeholder": "Your password"})
 
     submit = SubmitField("LOGIN")
+
+
+class AddTip(FlaskForm):
+    tip_title = StringField(
+        "tip_title", validators=[DataRequired("Enter a tip title"), Length(
+            min=5, message="Must be more that 5 character!"), Length(
+                max=50, message="Max length 50 characters!")],
+        render_kw={"placeholder": "Tip Title"})
+
+    tip_description = TextAreaField(
+        "tip_description", validators=[DataRequired(
+            "Enter a tip description"), Length(
+                min=10, message="Must be more that 10 characters!"), Length(
+                    max=500, message="Max length 300 characters!")],
+        render_kw={"placeholder": "Tip Description"})
+
+    submit = SubmitField("POST")
