@@ -170,6 +170,12 @@ def delete_user():
     return render_template("registration.html", title="| Home")
 
 
+@app.errorhandler(404)
+def not_found_error(error):
+    flash("ERROR 404 - Page Not Found", "error-404")
+    return render_template("home.html", error=error), 404
+
+
 
 
 
