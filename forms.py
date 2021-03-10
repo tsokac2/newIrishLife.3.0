@@ -86,5 +86,3 @@ class AddTip(FlaskForm):
         render_kw={"placeholder": "Tip Description"})
 
     submit = SubmitField("POST")
-
-    
