@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+        <title>New Irish Life  {{title}}</title>
+    {% endif %}
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}"/>
+    <meta name="description" content="Web-based travel guide for providing correct information how easily start living and working in Ireland">
+    <link rel="stylesheet" href="{{ url_for('static', filename='libraries/bootstrap/bootstrap.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8a0926547.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="{{ url_for('static', filename='libraries/scripts/emailjs.js') }}"></script>
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>
+</html>
