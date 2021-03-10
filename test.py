@@ -27,3 +27,10 @@ class AppTestCase(unittest.TestCase):
             mongo.db.tips.delete_many({})
 
 
+class AppTests(AppTestCase):
+    def test_home(self):
+        """Test Home page load response"""
+        res = self.client.get("/")
+        data = res.data.decode("utf-8")
+        assert res.status == "200 OK"
+        assert "Gandalf" in data
