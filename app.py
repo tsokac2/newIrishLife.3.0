@@ -106,6 +106,13 @@ def profile(username):
         "profile.html", title="| Profile", username=username)
 
 
+@app.route("/logout")
+def logout():
+    flash("You have been logged out!", "log-info")
+    session.pop("user")
+    return redirect(url_for("home"))
+
+
 
 
 
