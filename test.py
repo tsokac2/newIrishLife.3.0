@@ -48,3 +48,13 @@ class AppTests(AppTestCase):
         data = res.data.decode("utf-8")
         assert res.status == "200 OK"
         assert "Work" in data
+    
+    def test_life(self):
+        """Test Life page load response"""
+        res = self.client.get("/life")
+        data = res.data.decode("utf-8")
+        assert res.status == "200 OK"
+        assert "Life" in data
+    
+    
+
