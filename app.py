@@ -133,6 +133,25 @@ def add_tip():
         "add_tip.html", title="| Add Tip", form=form, categories=categories)
 
 
+@app.route("/update_tip/<tip_id>", methods=["GET", "POST"])
+def update_tip(tip_id):
+    if request.method == "POST":
+        update = {
+            "tip_category": request.form.get("tip_category"),
+            "tip_title": request.form.get("tip_title"),
+            "tip_description": request.form.get("tip_description"),
+            "date_added": datetime.datetime.utcnow(),
+            "created_by": session["user"]
+        }
+        mongo.db.tips.update({"_id": ObjectId(tip_id)}, update)
+        flash("Tip successfully updated", "reg-success")
+        return redirect(url_for("tips"))
+
+    tip = mongo.db.tips.find_one({"_id": ObjectId(tip_id)})
+    categories = mongo.db.categories.find().sort("tip_category", 1)
+    return render_template("update_tip.html", tip=tip, categories=categories)
+
+
 
 
 
