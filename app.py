@@ -26,6 +26,14 @@ def home():
         "home.html", title="| Travel | Work | Experience | Life Style")
 
 
+@app.route("/trip")
+def trip():
+    return render_template("trip.html", title="| Trip")
+
+
+
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
