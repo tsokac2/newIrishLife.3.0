@@ -54,3 +54,18 @@ class RegisterForm(FlaskForm):
         email = mongo.db.users.find_one({"email": request.form.get("email")})
         if email:
             raise ValidationError("Email is taken, choose a different one!")
+
+
+class LoginForm(FlaskForm):
+
+    username = StringField(
+        "username", validators=[DataRequired(
+            "Enter your username")],
+        render_kw={"placeholder": "Your username"})
+
+    password = PasswordField(
+        "password", validators=[DataRequired(
+            "Enter correct password!")],
+        render_kw={"placeholder": "Your password"})
+
+    submit = SubmitField("LOGIN")
