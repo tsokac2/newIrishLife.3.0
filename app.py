@@ -47,6 +47,13 @@ def tips():
     return render_template("tips.html", title="| Tips", tips=tips)
 
 
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    tips = list(mongo.db.tips.find({"$text": {"$search": query}}))
+    return render_template("search.html", tips=tips)
+
+
 
 
 
