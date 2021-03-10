@@ -176,7 +176,10 @@ def not_found_error(error):
     return render_template("home.html", error=error), 404
 
 
-
+@app.errorhandler(500)
+def internal_error(error):
+    flash("ERROR 500 - Page Not Found", "error-500")
+    return render_template("home.html", error=error), 500
 
 
 if __name__ == "__main__":
