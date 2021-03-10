@@ -159,6 +159,17 @@ def delete_tip(tip_id):
     return redirect(url_for("add_tip"))
 
 
+@app.route("/delete_user")
+def delete_user():
+    username = mongo.db.users.find_one(
+        {"username": session["user"]})["username"]
+    mongo.db.users.remove({"username": username})
+    flash("Your profile is deleted!", "profile-deleted")
+    session.pop("user")
+    return redirect("registration")
+    return render_template("registration.html", title="| Home")
+
+
 
 
 
