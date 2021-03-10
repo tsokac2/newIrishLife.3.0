@@ -24,3 +24,9 @@ mongo = PyMongo(app)
 def home():
     return render_template(
         "home.html", title="| Travel | Work | Experience | Life Style")
+
+
+if __name__ == "__main__":
+    app.run(host=os.environ.get("IP"),
+            port=int(os.environ.get("PORT")),
+            debug=False)
