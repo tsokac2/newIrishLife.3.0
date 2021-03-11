@@ -57,3 +57,31 @@ function pushSuccessFor(input) {
     var formControl = input.parentElement;
     formControl.className = "form-group success";
 }
+
+var send = function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    var checkName = validateName();
+    var checkEmail = validateEmail();
+
+    if(checkName === true && checkEmail === true) {
+        sendEmail();
+        reset();
+        TnxForSupport("WOOHOO! Thank you for your support! You will receive a confirmation email soon. ");
+
+    } else {
+        validateName();
+        validateEmail();
+    }
+};
+
+var reset = function (){
+    document.getElementById("newsForm").reset();
+};
+
+function TnxForSupport(tnxMessage) {
+    var tnx = document.getElementById("tnx");
+    tnx.style.visibility = "visible";
+    tnx.innerText = tnxMessage;
+}
