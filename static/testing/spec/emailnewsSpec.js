@@ -63,4 +63,10 @@ describe("Testing Callback functions for Validation process against Input Elemen
         });
     });
 
+    describe("sendEmail Function - connection betwen EMAILJS API provider", function(){
+        it("sendEmail() function should exist", function(){
+            expect(sendEmail).toBeDefined();
+        });
+    });
+
 });
