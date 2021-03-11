@@ -168,3 +168,22 @@ $(".blur").on("click", function () {
         $("#Card9").removeClass("wrap-rel");
         $(".hideLinks9-grid").hide(400);
 });
+
+$("#showLinks10").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).show(300);
+        $(".blur").fadeIn(400);
+        $(thisCardLinkShow).addClass("rel-card");
+        $("#Card10").addClass("wrap-rel");
+});
+$("#hideLinks10").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card10").removeClass("wrap-rel");
+});
+$(".blur").on("click", function () {
+        $(".blur").fadeOut(300);
+        $("#Card10").removeClass("wrap-rel");
+        $(".hideLinks10-grid").hide(400);
+});
