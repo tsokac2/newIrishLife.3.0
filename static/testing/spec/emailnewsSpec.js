@@ -45,6 +45,10 @@ describe("Testing Callback functions for Validation process against Input Elemen
         });
     });
 
-    
+    describe("Send Function - for final validation proccess and form submitin action", function(){
+        it("send() function should exist", function(){
+            expect(send).toBeDefined();
+        });
+    });
 
 });
