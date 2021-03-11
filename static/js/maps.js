@@ -69,4 +69,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: luasMarkerIcon
         });
 
+        var TrinityLuasStop = new google.maps.Marker({
+            position: {lat: 53.34540, lng: -6.25826},
+            map: map,
+            title: "Trinity Luas Stop",
+            icon: luasMarkerIcon
+        });
+
 }
