@@ -51,4 +51,12 @@ describe("Testing Callback functions for Validation process against Input Elemen
         });
     });
 
+    describe("Reset Function - send() function was success, reset function resets inouts fields", function(){
+        it("reset() function should exist", function(){
+            expect(reset).toBeDefined();
+        });
+    });
+
+    
+
 });
