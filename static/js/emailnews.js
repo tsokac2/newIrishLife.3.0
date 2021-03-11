@@ -39,3 +39,8 @@ var validateEmail = function() {
 
     return valid;
 };
+/* START - CODE SOURCE: https://www.w3resource.com/javascript/form/email-validation.php*/
+function testEmail(email) {
+    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+/* END - CODE SOURCE: https://www.w3resource.com/javascript/form/email-validation.php*/
