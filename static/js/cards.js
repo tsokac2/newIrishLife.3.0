@@ -92,3 +92,22 @@ $(".blur").on("click", function () {
         $("#Card5").removeClass("wrap-rel");
         $(".hideLinks5-grid").hide(400);
 });
+
+$("#showLinks6").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).show(300);
+        $(".blur").fadeIn(400);
+        $(thisCardLinkShow).addClass("rel-card");
+        $("#Card6").addClass("wrap-rel");
+});
+$("#hideLinks6").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card6").removeClass("wrap-rel");
+});
+$(".blur").on("click", function () {
+        $(".blur").fadeOut(300);
+        $("#Card6").removeClass("wrap-rel");
+        $(".hideLinks6-grid").hide(400);
+});
