@@ -206,3 +206,22 @@ $(".blur").on("click", function () {
         $("#Card11").removeClass("wrap-rel");
         $(".hideLinks11-grid").hide(400);
 });
+
+$("#showLinks12").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).show(300);
+        $(".blur").fadeIn(400);
+        $(thisCardLinkShow).addClass("rel-card");
+        $("#Card12").addClass("wrap-rel");
+});
+$("#hideLinks12").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card12").removeClass("wrap-rel");
+});
+$(".blur").on("click", function () {
+        $(".blur").fadeOut(300);
+        $("#Card12").removeClass("wrap-rel");
+        $(".hideLinks12-grid").hide(400);
+});
