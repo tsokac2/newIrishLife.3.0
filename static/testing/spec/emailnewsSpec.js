@@ -33,6 +33,18 @@ describe("Testing Callback functions for Validation process against Input Elemen
 
     });
 
+    describe("Push Error .form-group error CLASS for INVALID name or email input value", function(){
+        it("pushErrorFor() function should exist", function(){
+            expect(pushErrorFor).toBeDefined();
+        });
+    });
+
+    describe("Push Error .form-group error CLASS for VALID name or email input value", function(){
+        it("pushErrorFor() function should exist", function(){
+            expect(pushSuccessFor).toBeDefined();
+        });
+    });
+
     
 
 });
