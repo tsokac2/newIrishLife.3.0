@@ -149,3 +149,22 @@ $(".blur").on("click", function () {
         $("#Card8").removeClass("wrap-rel");
         $(".hideLinks8-grid").hide(400);
 });
+
+$("#showLinks9").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).show(300);
+        $(".blur").fadeIn(400);
+        $(thisCardLinkShow).addClass("rel-card");
+        $("#Card9").addClass("wrap-rel");
+});
+$("#hideLinks9").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card9").removeClass("wrap-rel");
+});
+$(".blur").on("click", function () {
+        $(".blur").fadeOut(300);
+        $("#Card9").removeClass("wrap-rel");
+        $(".hideLinks9-grid").hide(400);
+});
