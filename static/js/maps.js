@@ -34,6 +34,13 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: busMarkerIcon
         });
 
+        var BusarasBusStation = new google.maps.Marker({
+            position: {lat: 53.34983, lng: -6.25185},
+            map: map,
+            title: "Busaras Central Bus Station",
+            icon: busMarkerIcon
+        });
+
         
 
 }
