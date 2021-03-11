@@ -62,4 +62,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: dartMarkerIcon
         });
 
+        var AbbeyStreetLuas = new google.maps.Marker({
+            position: {lat: 53.34871, lng: -6.25819},
+            map: map,
+            title: "Abbey Street Luas Stop",
+            icon: luasMarkerIcon
+        });
+
 }
