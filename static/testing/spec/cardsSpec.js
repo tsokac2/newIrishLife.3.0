@@ -312,6 +312,15 @@ describe("Testing DOM Elements - Triggering .on('click') Event in trip.html, wor
         expect(spyEventHide).toHaveBeenTriggered();
     });
 
-    
-
+    it("Should invoke the jQuery click event when elements .blur is clicked", function(){
+        setFixtures('<div class="blur"></div>');
+        $(".blur").on("click", function  () {
+            $(".blur").fadeOut(300);
+            $("#Card1").removeClass("wrap-rel");
+            $(".hideLinks1-grid").hide(400);
+         });
+        var spyEventBlur = spyOnEvent('.blur', 'click');
+        $('.blur').trigger('click');
+        expect(spyEventBlur).toHaveBeenTriggered();
+    });
 });
