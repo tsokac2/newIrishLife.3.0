@@ -97,4 +97,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: luasMarkerIcon
         });
 
+        var BridesGlen = new google.maps.Marker({
+            position: {lat: 53.24204, lng: -6.14275},
+            map: map,
+            title: "Brides Glen Luas Stop",
+            icon: luasMarkerIcon
+        });
+
 }
