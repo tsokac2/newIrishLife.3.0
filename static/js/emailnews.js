@@ -85,3 +85,21 @@ function TnxForSupport(tnxMessage) {
     tnx.style.visibility = "visible";
     tnx.innerText = tnxMessage;
 }
+
+function sendEmail() {
+    var tempInputs = {
+        "from_name": document.getElementById("newsName").value,
+        "from_email": document.getElementById("newsEmail").value
+    };
+
+    emailjs.send("service_yf3pn0p", "newIrishLife", tempInputs)
+        .then(function (response) {
+                console.log("SUCCESS", response);
+            },
+            function (error) {
+                console.log("FAILED", error);
+            });
+            return false;
+   }
+
+document.addEventListener('DOMContentLoaded', newsletter);
