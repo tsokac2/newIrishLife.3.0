@@ -41,6 +41,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: busMarkerIcon
         });
 
-        
+        var HeustonStation = new google.maps.Marker({
+            position: {lat: 53.34646, lng: -6.29413},
+            map: map,
+            title: "Heuston Station",
+            icon: dartMarkerIcon
+        });
 
 }
