@@ -54,3 +54,22 @@ $(".blur").on("click", function () {
         $("#Card3").removeClass("wrap-rel");
         $(".hideLinks3-grid").hide(400);
 });
+
+$("#showLinks4").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).show(300);
+        $(".blur").fadeIn(400);
+        $(thisCardLinkShow).addClass("rel-card");
+        $("#Card4").addClass("wrap-rel");
+});
+$("#hideLinks4").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card4").removeClass("wrap-rel");
+});
+$(".blur").on("click", function () {
+        $(".blur").fadeOut(300);
+        $("#Card4").removeClass("wrap-rel");
+        $(".hideLinks4-grid").hide(400);
+});
