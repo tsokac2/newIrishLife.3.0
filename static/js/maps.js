@@ -76,4 +76,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: luasMarkerIcon
         });
 
+        var TallaghtLuasStop = new google.maps.Marker({
+            position: {lat: 53.28752, lng: -6.37463},
+            map: map,
+            title: "Tallaght Luas Stop",
+            icon: luasMarkerIcon
+        });
+
 }
