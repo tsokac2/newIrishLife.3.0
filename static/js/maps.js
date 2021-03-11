@@ -104,4 +104,10 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: luasMarkerIcon
         });
 
+        var Broombridge = new google.maps.Marker({
+            position: {lat: 53.37234, lng: -6.29772},
+            map: map,
+            title: "Broombridge Luas Stop",
+            icon: luasMarkerIcon
+        });
 }
