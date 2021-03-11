@@ -234,6 +234,33 @@ describe("Testing DOM Elements - Triggering .on('click') Event in trip.html, wor
         expect(spyEventHide).toHaveBeenTriggered();
     });
 
+    it("Should invoke the jQuery click event when elements #showLinks10 and #hideLinks10 are clicked", function(){
+        setFixtures('<button id="showLinks10" class="load-links-btn">Quick Links...<i class="fas fa-sort-down"></i></button>');
+        $('#showLinks10').on('click', function (){
+            var thisCardLinkShow = "." + this.id + "-grid";
+                $(thisCardLinkShow).show(300);
+                $(".blur").fadeIn(400);
+                $(thisCardLinkShow).addClass("rel-card");
+                $("#Card10").addClass("wrap-rel");
+        });
+
+        setFixtures(' <button id="hideLinks10" class="hideLinks-btn"><i class="far fa-times-circle"></i></button>');
+        $("#hideLinks10").on("click", function (){
+            var thisCardLinkShow = "." + this.id + "-grid";
+                $(thisCardLinkShow).hide(400);
+                $(".blur").fadeOut(300);
+                $("#Card10").removeClass("wrap-rel");
+        });
+
+        var spyEventShow = spyOnEvent('#showLinks10', 'click');
+        var spyEventHide = spyOnEvent('#hideLinks10', 'click');
+        $('#showLinks10').trigger('click');
+        $('#hideLinks10').trigger('click');
+        expect(spyEventShow).toHaveBeenTriggered();
+        expect(spyEventHide).toHaveBeenTriggered();
+    });
+
     
+
 
 });
