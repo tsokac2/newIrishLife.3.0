@@ -111,3 +111,22 @@ $(".blur").on("click", function () {
         $("#Card6").removeClass("wrap-rel");
         $(".hideLinks6-grid").hide(400);
 });
+
+$("#showLinks7").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).show(300);
+        $(".blur").fadeIn(400);
+        $(thisCardLinkShow).addClass("rel-card");
+        $("#Card7").addClass("wrap-rel");
+});
+$("#hideLinks7").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card7").removeClass("wrap-rel");
+});
+$(".blur").on("click", function () {
+        $(".blur").fadeOut(300);
+        $("#Card7").removeClass("wrap-rel");
+        $(".hideLinks7-grid").hide(400);
+});
