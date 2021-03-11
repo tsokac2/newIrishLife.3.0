@@ -55,4 +55,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: dartMarkerIcon
         });
 
+        var TaraStation = new google.maps.Marker({
+            position: {lat: 53.34756, lng: -6.25418},
+            map: map,
+            title: "Tara Station, Bus Stop at Train Station",
+            icon: dartMarkerIcon
+        });
+
 }
