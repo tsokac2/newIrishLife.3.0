@@ -130,3 +130,22 @@ $(".blur").on("click", function () {
         $("#Card7").removeClass("wrap-rel");
         $(".hideLinks7-grid").hide(400);
 });
+
+$("#showLinks8").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).show(300);
+        $(".blur").fadeIn(400);
+        $(thisCardLinkShow).addClass("rel-card");
+        $("#Card8").addClass("wrap-rel");
+});
+$("#hideLinks8").on("click", function (){
+    var thisCardLinkShow = "." + this.id + "-grid";
+        $(thisCardLinkShow).hide(400);
+        $(".blur").fadeOut(300);
+        $("#Card8").removeClass("wrap-rel");
+});
+$(".blur").on("click", function () {
+        $(".blur").fadeOut(300);
+        $("#Card8").removeClass("wrap-rel");
+        $(".hideLinks8-grid").hide(400);
+});
