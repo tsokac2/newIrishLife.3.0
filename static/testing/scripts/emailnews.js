@@ -28,6 +28,18 @@ var validateEmail = function(inputValue) {
     return valid;
 };
 
+function pushErrorFor(input, errorMessage) {
+    var formControl = input.parentElement;
+    var small = formControl.querySelector("small");
+    formControl.className = "form-group error";
+    small.innerText = errorMessage;
+}
+
+function pushSuccessFor(input) {
+    var formControl = input.parentElement;
+    formControl.className = "form-group success";
+}
+
 var send = function(e) {
     e.preventDefault();
     e.stopPropagation();
