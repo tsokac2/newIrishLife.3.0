@@ -27,6 +27,13 @@ google.maps.event.addDomListener(window, "resize", function() {
             scaledSize: new google.maps.Size(50, 50)
         };
 
+        var Bus747Stop = new google.maps.Marker({
+            position: {lat: 53.42810, lng: -6.24407},
+            map: map,
+            title: "BUS 747 Stop",
+            icon: busMarkerIcon
+        });
+
         
 
 }
