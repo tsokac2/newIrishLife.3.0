@@ -7,8 +7,65 @@
         <div class="col">
             <section class="section-home">
                 <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-12 col-lg-6 reg-form">
+                                <div class="col-12 text-left">
+                                    {% with messages = get_flashed_messages(category_filter=["tip-deleted"]) %}
+                                        {% if messages %}
+                                            {% for message in messages %}
+                                            <div class="flash-warning text-left">
+                                                <h2><i class="fas fa-info-circle"></i>{{ message | safe }}</h2>
+                                            </div>
+                                            {% endfor %}
+                                        {% endif %}
+                                    {% endwith %}
+                                </div>
+                                <h2>Create new tip</h2>
+                                <p><strong>Because sharing is caring!</strong></p>
+                                <form method="POST" action="{{ url_for('add_tip') }}" novalidate>
+                                    {{ form.hidden_tag() }}
+                                    <div class="input-group">
+                                        <span><i class="fas fa-align-justify"></i></span>
+                                        <select id="tip_category" name="tip_category" class="userInput" required>
+                                            <option value="" disabled selected>Choose Category</option>
+                                            {% for category in categories %}
+                                                <option value="{{ category.tip_category }}">{{ category.tip_category }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <span><i class="fas fa-heading"></i></span>
+                                        {{ form.tip_title(class="userInput") }}
+                                        {% if form.tip_title.errors %}
+                                        <div class="invalid-feedback-error">
+                                            {% for error in form.tip_title.errors %}
+                                            <small>{{ error }}</small>
+                                            {% endfor %}
+                                        </div> 
+                                        {% endif %}
+                                    </div>
+                                    <div class="input-group">
+                                        <span><i class="far fa-clipboard"></i></span>
+                                        {{ form.tip_description(cols=5, rows=5, class="userInput") }}
+                                        {% if form.tip_description.errors %}
+                                        <div class="invalid-feedback-error">
+                                            {% for error in form.tip_description.errors %}
+                                            <small>{{ error }}</small>
+                                            {% endfor %}
+                                        </div> 
+                                        {% endif %}
+                                    </div>
+                                    {{ form.submit(class="sub-button") }}
+                                </form>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
                     
-                    
+
                 </div>
             </section>
         </div>
