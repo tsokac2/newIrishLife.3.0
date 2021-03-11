@@ -48,4 +48,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: dartMarkerIcon
         });
 
+        var ConnollyTrainStation = new google.maps.Marker({
+            position: {lat: 53.35165, lng: -6.24970},
+            map: map,
+            title: "Busaras Central Station",
+            icon: dartMarkerIcon
+        });
+
 }
