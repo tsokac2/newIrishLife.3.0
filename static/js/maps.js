@@ -12,7 +12,21 @@ google.maps.event.addDomListener(window, "resize", function() {
     google.maps.event.trigger(map, "resize");
     map.setCenter(center);
   });
+        var busMarkerIcon = {
+            url:"static/images/bus_marker.png",
+            scaledSize: new google.maps.Size(50, 50)
+        };
 
-  
+        var dartMarkerIcon = {
+            url:"static/images/dart_marker.png",
+            scaledSize: new google.maps.Size(50, 50)
+        };
+
+        var luasMarkerIcon = {
+            url:"static/images/luas_marker.png",
+            scaledSize: new google.maps.Size(50, 50)
+        };
+
+        
 
 }
