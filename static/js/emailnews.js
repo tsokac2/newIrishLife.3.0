@@ -20,3 +20,22 @@ var validateName = function() {
 
     return valid;
 };
+
+var validateEmail = function() {
+    var valid;
+    var email = document.getElementById("newsEmail");
+    var emailValue = email.value.trim();
+
+    if(emailValue === "") {
+        pushErrorFor(email, "Enter Your email address!");
+        valid = false;
+    } else if (!testEmail(emailValue)){
+        pushErrorFor(email, "Enter valid email address!");
+        valid = false;
+    } else {
+        pushSuccessFor(email);
+        valid = true;
+    }
+
+    return valid;
+};
