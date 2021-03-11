@@ -90,4 +90,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: luasMarkerIcon
         });
 
+        var ThePoint = new google.maps.Marker({
+            position: {lat: 53.34848, lng: -6.22894},
+            map: map,
+            title: "The Point Luas Stop",
+            icon: luasMarkerIcon
+        });
+
 }
