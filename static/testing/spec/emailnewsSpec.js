@@ -57,6 +57,10 @@ describe("Testing Callback functions for Validation process against Input Elemen
         });
     });
 
-    
+    describe("TnxForSupport Function - send() function request was success, success message will be display", function(){
+        it("TnxForSupport() function should exist", function(){
+            expect(TnxForSupport).toBeDefined();
+        });
+    });
 
 });
