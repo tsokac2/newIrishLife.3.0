@@ -83,4 +83,11 @@ google.maps.event.addDomListener(window, "resize", function() {
             icon: luasMarkerIcon
         });
 
+        var SaggartLuasStop = new google.maps.Marker({
+            position: {lat: 53.28481, lng: -6.43776},
+            map: map,
+            title: "Saggart Luas Stop",
+            icon: luasMarkerIcon
+        });
+
 }
