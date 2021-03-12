@@ -22,7 +22,38 @@
                                     </div>
                                     <h2>Already a member!?</h2>
                                     <p>Enter your login details:</p>
+                                    <form method="POST" action="{{ url_for('login') }}" novalidate>
+                                        {{ form.hidden_tag() }}                                    
+                                        <div class="input-group">
+                                            <span><i class="far fa-paper-plane"></i></span>
+                                            {{ form.username(class="userInput") }}
+                                            {% if form.username.errors %}
+                                            <div class="invalid-feedback-error">
+                                                {% for error in form.username.errors %}
+                                                <small>{{ error }}</small>
+                                                {% endfor %}
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="input-group">
+                                            <span><i class="fas fa-user-lock"></i></span>
+                                            {{ form.password(class="userInput") }}
+                                            {% if form.password.errors %}
+                                            <div class="invalid-feedback-error">
+                                                {% for error in form.password.errors %}
+                                                <small>{{ error }}</small>
+                                                {% endfor %}
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        {{ form.submit(class="sub-button") }}
+                                    </form>
+                                    <div class="member">
+                                        <h3><strong> Need An Account? <a class="ml-2" href="{{ url_for('registration') }}">Sign Up</a></strong></h3>
+                                    </div>
 
+
+                                    
                                 </div>
 
 
