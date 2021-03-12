@@ -153,6 +153,24 @@
 {% endblock %}
 <footer class="container-fluid">
     <div class="row justify-content-center">
+        <div class="col">
+            <div class="row justify-content-center footer-line">
+                <div class="col-4 l"></div>
+                <div class="col-2 g"></div>
+                <div class="col-4 l"></div>
+            </div>
+        </div>
+        <div class="col-12 text-center info">
+            <ul class="link-wrap">
+                <li class="r"><a class="text-decoration-none flex-link" href="{{ url_for('home')}}">HOME</a> </li>
+                <li class="r"><a class="text-decoration-none flex-link" href="{{ url_for('trip')}}">TRIP</a></li>
+                <li><a class="text-decoration-none flex-link" href="{{ url_for('work')}}">WORK</a></li>
+                <li class="l"><a class="text-decoration-none flex-link " href="{{ url_for('life')}}">LIFE</a></li>
+                <li class="l"><a class="text-decoration-none flex-link l-w" href="{{ url_for('tips')}}">TIPS</a></li>
+            </ul>
+        </div>
+
+        
 
     </div>
 </footer>
