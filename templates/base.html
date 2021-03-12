@@ -18,6 +18,45 @@
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="{{ url_for('static', filename='libraries/scripts/emailjs.js') }}"></script>
 </head>
+<div class="blur"></div>
+<nav class="container-fluid fixed-top d-none d-sm-block">
+    <div class="row justify-content-center">
+        <div class="col-12 large-menu-wrap">
+            <div class="row justify-content-center">
+                <div class="col-5 mt-4 p-0 text-center">
+                    <div class="large-left-menu">
+                        <a href="{{ url_for('home')}}">HOME</a>
+                        <a href="{{ url_for('trip')}}">TRIP</a>
+                        <a href="{{ url_for('work')}}">WORK</a>
+                        <a href="{{ url_for('life')}}">LIFE</a>
+                        <a href="{{ url_for('tips')}}" class="rt">TIPS <i class="fas fa-comment-dots"></i></a>
+                    </div>
+                </div>
+                <div class="col-2 mt-4 p-0 text-center">
+                    <a href="{{ url_for('home')}}"><img src="{{ url_for('static', filename='images/Logo.png')}}" 
+                        width="95" alt="New Irish Logo"></a>
+                </div>
+                <div class="col-5 p-0 mt-4">
+                    <div class="row justify-content-start">
+                        <div class="col-12 text-center">
+                            <div class="large-right-menu">
+                                {% if session.user %}
+                                    <a href="{{ url_for('add_tip')}}"><i class="fas fa-plus"></i>Tips</a>
+                                    <a href="{{ url_for('profile', username=session['user']) }}"> <i class="fas fa-user-plus"></i>Profile</a>
+                                    <a href="{{ url_for('logout')}}"><i class="fas fa-user-plus"></i>Logout</a>
+                                {% else %}
+                                    <a href="{{ url_for('registration')}}"><i class="fas fa-user-plus"></i>Sign Up</a>
+                                    <a href="{{ url_for('login')}}"><i class="fas fa-sign-in-alt"></i>Login</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row quote-borders p-2 mt-3"></div>
+        </div>
+    </div>
+</nav>
 <body>
 {% block content %}
 {% endblock %}
