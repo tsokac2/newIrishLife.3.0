@@ -58,8 +58,27 @@
     </div>
 </nav>
 <div class="container-fluid d-sm-none fixed-top">
+    <div class="row justify-content-center mobile-nav-wrap">
+        <div class="col-10 text-center">
+            <a href="{{ url_for('home')}}">
+                <img class="img-fluid" src="{{ url_for('static', filename='images/Logo.png')}}" 
+                    width="70" alt="New Irish Logo">
+            </a>
+        </div>
+        <div class="col-12 mt-3">
+            <div class="row justify-content-center footer-line">
+                <div class="col-4 l"></div>
+                <div class="col-2 g"></div>
+                <div class="col-4 l"></div>
+            </div>
+        </div>
+        <div class="col-8 p-0 menu-btn-wrap text-center">
+            <button data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">MENU</button>
+        </div>
+    </div>
 
-    
+
 </div>
 <body>
 {% block content %}
