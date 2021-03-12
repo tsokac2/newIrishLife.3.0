@@ -28,22 +28,22 @@
                                             <span><i class="far fa-paper-plane"></i></span>
                                             {{ form.username(class="userInput") }}
                                             {% if form.username.errors %}
-                                            <div class="invalid-feedback-error">
-                                                {% for error in form.username.errors %}
-                                                <small>{{ error }}</small>
-                                                {% endfor %}
-                                            </div>
+                                                <div class="invalid-feedback-error">
+                                                    {% for error in form.username.errors %}
+                                                    <small>{{ error }}</small>
+                                                    {% endfor %}
+                                                </div>
                                             {% endif %}
                                         </div>
                                         <div class="input-group">
                                             <span><i class="fas fa-user-lock"></i></span>
                                             {{ form.password(class="userInput") }}
                                             {% if form.password.errors %}
-                                            <div class="invalid-feedback-error">
-                                                {% for error in form.password.errors %}
-                                                <small>{{ error }}</small>
-                                                {% endfor %}
-                                            </div>
+                                                <div class="invalid-feedback-error">
+                                                    {% for error in form.password.errors %}
+                                                    <small>{{ error }}</small>
+                                                    {% endfor %}
+                                                </div>
                                             {% endif %}
                                         </div>
                                         {{ form.submit(class="sub-button") }}
