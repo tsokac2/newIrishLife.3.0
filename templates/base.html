@@ -80,12 +80,73 @@
     <nav class="navbar navbar-expand-lg navbar-light nav-padding d-lg-none">
         <div class="collapse navbar-collapse p-0 m-0 bg-info" id="navbarSupportedContent">
             <div class="nav-mobile">
-
+                <div class="wrap">
+                    <a href="{{ url_for('home')}}" class="link">
+                        <span class="icons home"></span>
+                        <span>Home</span>
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="{{ url_for('trip')}}" class="link">
+                        <span class="icons trip"></span>
+                        <span>Trip</span>
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="{{ url_for('work')}}" class="link">
+                        <span class="icons work"></span>
+                        <span>Work</span>
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="{{ url_for('life')}}" class="link">
+                        <span class="icons life"></span>
+                        <span>Life</span>
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="{{ url_for('tips')}}" class="link">
+                        <span class="icons tips"></span>
+                        <span>TIPS</span>
+                    </a>
+                </div>
+                {% if session.user %}
+                    <div class="wrap">
+                        <a href="{{ url_for('add_tip')}}" class="link">
+                            <span class="icons add_tip"></span>
+                            <span>Add Tip</span>
+                        </a>
+                    </div>
+                    <div class="wrap wrap">
+                        <a href="{{ url_for('profile', username=session['user'])}}" class="link">
+                            <span class="icons profile"></span>
+                            <span>Profile</span>
+                        </a>
+                    </div>
+                    <div class="wrap wrap">
+                        <a href="{{ url_for('logout')}}" class="link">
+                            <span class="icons logout"></span>
+                            <span>Logout</span>
+                        </a>
+                    </div>
+                {% else %}
+                    <div class="wrap">
+                        <a href="{{ url_for('login')}}" class="link">
+                            <span class="icons login"></span>
+                            <span>Login</span>
+                        </a>
+                    </div>
+                    <div class="wrap wrap--s">
+                        <a href="{{ url_for('registration')}}" class="link">
+                            <span class="icons sing-up"></span>
+                            <span>Sign Up</span>
+                        </a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </nav>
-
-
+    <div class="row quote-borders p-2"></div>
 </div>
 <body>
 {% block content %}
