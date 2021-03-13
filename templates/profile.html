@@ -11,5 +11,21 @@
         </div>
     </div>
 </div>
-
+<div class="modal fade" id="delete-profile" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-profile" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content delete-profile-modal">    
+            <div class="modal-body">
+                <div class="container-fluid p-0">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-12 col-sm-8">
+                            <h2>Are you sure you want to delete your profile</h2>
+                            <a class="delete-btn" href="{{ url_for('delete_user', username=session.user) }}">YES</a>
+                            <a href="#" class="no-btn" data-dismiss="modal">NO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
