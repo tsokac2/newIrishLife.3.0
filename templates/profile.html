@@ -21,8 +21,49 @@
                                         {% endwith %}
                                     </div> 
                                 </div>
+                                <h2 class="profile-info">Profile Info</h2>
+                                <div class="row justify-content-center">
+                                    <div class="col-10 col-md-10 p-0 m-0">
+                                        <div class="row justify-content-start profile-details-wrap">
+                                            <div class="col-12">
+                                                <div class="profile-details text-left">
+                                                    <i class="fas fa-user-alt"></i>
+                                                    <h3 >Username: <span class="username">{{ username }}</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 text-left">
+                                                <div class="profile-details">
+                                                    <i class="far fa-paper-plane"></i>
+                                                    <h3>Email: <span class="email">{{ email }}</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 text-left">
+                                                <div class="profile-details">
+                                                    <i class="far fa-calendar-alt"></i>
+                                                    <h3 >Joined: <span class="email">{{ date_created.strftime("%d %b, %Y") }}</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mb-1">
+                                                <div class="row justify-content-center footer-line">
+                                                    <div class="col-4 l"></div>
+                                                    <div class="col-2 g"></div>
+                                                    <div class="col-4 l"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 delete-profile-wrap text-center">
+                                                <h2>Delete your profile!</h2>
+                                                <a href="#" class="delete-btn" data-toggle="modal" data-target="#delete-profile" >DELETE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 box-wrap d-none d-md-block">
+                                <div class="cards-wrap-reg">
+                                    
+                                </div>
 
-                                
+
                             </div>
 
                         </div>
