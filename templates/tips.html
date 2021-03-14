@@ -78,9 +78,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        {% if tips|length > 0 %}
 
+                            
 
-
+                        {% else %}
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-8 col-lg-4">
+                                    <div class="serch-tips-wrap text-center">
+                                        <h2 class="no-results"><i class="fas fa-exclamation-triangle"></i> No result found!</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
             </section>
         </div>
     </div>
