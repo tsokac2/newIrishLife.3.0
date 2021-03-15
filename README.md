@@ -198,3 +198,12 @@ Formatted in two main sub-sections:
 * **_START HERE_** Most popular job search services for the Irish job market
 * **_BACK TO SCHOOL_** Most popular online courses and full-time education institutions
 * **_Quick Links..._** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_work.png)
+
+## LIFE
+Section with life essentials factors after moving to Ireland
+
+Formatted in three main sub-sections:
+* **_ACCOMMODATION_** Online rental agencies
+* **_MOBILE NETWORKS_** Mobile/internet networks providers
+* **_GROCERY SHOPS_** Irish Top food chains for grocery shopping
+* **_Quick Links..._** Quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_life.png)
