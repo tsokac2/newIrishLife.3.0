@@ -14,7 +14,7 @@
                                     <div class="input-group">
                                         <span><i class="fas fa-align-justify"></i></span>
                                         <select id="tip_category" name="tip_category" class="userInput" required>
-                                            <option  disabled>Choose Category</option>
+                                            <option value="" disabled>Choose Category</option>
                                             {% for category in categories %}
                                                 {% if category.tip_category == tip.tip_category %}
                                                     <option value="{{ category.tip_category }}" selected>{{ category.tip_category }}</option>
