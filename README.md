@@ -88,9 +88,9 @@ there was a lot of info about life in Ireland, but not essentials information in
   * Users can navigate through embedded Google Map with colorful markers representing the most important bus stations, train stations, and tram stations in Dublin, Ireland.
 
 * Definition by **WORK** section - As a First Time Visitor, I want to easily understand how to start a job search process with the best possible preparation for the Irish work market:
- * Users can quickly understand where to start the job search process.
- * User can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.3.0/static/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission.
- * User can find the best option for online education with the best offers.
+  * Users can quickly understand where to start the job search process.
+  * User can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.3.0/static/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission.
+  * User can find the best option for online education with the best offers.
 
 * Definition by **LIFE** section - As a First Time Visitor, I want to easily find the best online rental marketplaces, the most popular mobile networks provider, and large-chain grocery shops
   * User can choose one of the four most popular Irish online rental portals with quick links for share accommodation or buy options.
@@ -101,4 +101,8 @@ there was a lot of info about life in Ireland, but not essentials information in
   * By entering Username, the user can see if chosen Username is already taken or is below 2 characters, or it is completely valid.
   * By entering an Email address, the user can see if the email address is valid or already in use, or is completely valid.
   * By entering the password, the user must confirm the password for additional data security.
+
+* Definition by **LOGIN** section - After the first successful registration, I want to be redirected to the login page and enter my username and password:
+  * By entering the Username and password and if either input details are invalid, the user is receiving a warning message.
+  * By entering the correct username and password the user is redirected to the profile page.
 
