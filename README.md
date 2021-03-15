@@ -409,7 +409,7 @@ DB connection details are stored in an env.py for development, for security reas
 * Google Fonts - **[Josefin](https://fonts.google.com/specimen/Josefin+Sans?preview.text_type=custom)**
 
 **GOOGLE API IMPLEMENTATION STEPS:**
-  * Pick Google Maps product [More info](https://developers.google.com/maps/gmp-get-started#quickstart)
+  * Pick Google Maps product **[More info](https://developers.google.com/maps/gmp-get-started#quickstart)**
   * Create a project.
   * Set up a billing account.
   * Enable APIs associated with the products you picked.
@@ -440,9 +440,9 @@ DB connection details are stored in an env.py for development, for security reas
 * Add New Service - Gmail
 * Email Templates - Create New Template
 * Use following syntax for form attributes, syntax {{form_name}}
-* SENT Email content from a user
+* SENT **[Email](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/email_01.png)** content from a user
 * Select the Auto-Reply option and place the following: **_SUBJECT**: On behalf of all of us from New Irish Life, welcome onboard!_
-* **WELCOMING** [Email]() content sent to the user after successful submission
+* **WELCOMING** **[Email](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/email_02.png)** content sent to the user after successful submission
 
 **SCRIPTS INTEGRATION:**
  * Before closing **`<head>`** element place following **CDN** script tag:
