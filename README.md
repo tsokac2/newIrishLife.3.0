@@ -6,3 +6,26 @@ advice, and planning this task can be made a lot easier.
 This website is a great starting point.
 
 ![Website Main Mockup](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_Main.png)
+
+## Table of Contents
+* [User Experience Design (UX)](#UX)
+    * [User Story](#User-Story)
+    * [Design process](#Design-process)
+* [Features](#FEATURES)
+    * [Home](#HOME)
+    * [Trip](#TRIP)
+    * [Work](#WORK)
+    * [Life](#LIFE)
+    * [Tips](#TIPS)
+    * [Sign Up](#SIGN-UP)
+    * [Login](#LOGIN)
+    * [Profile](#PROFILE)
+    * [Add Tip](#ADD-TIP)
+
+* [Technologies used](#TECHNOLOGIES-USED)
+* [Testing](#TESTING)
+* [Deployment](#DEPLOYMENT)
+* [Credits](#Credits)
+
+****
+
