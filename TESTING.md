@@ -72,9 +72,9 @@ Testing was processed to ensure that routing functionality is redirecting users 
 * Test **Tips** page load response
 * Test **Sign Up** page load response
 * Test **Login** page load response
-* Command line 7 [Tests Result]()
+* Command line 7 [Tests Result](https://github.com/tsokac2/newirishlife.3.0/blob/main/static/wireframes/W3_unittest.png)
 
-**FULL SOURCE CODE:** [test.py]()
+**FULL SOURCE CODE:** [test.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/test.py)
 
 ### [Jasmine](https://jasmine.github.io/)
 Behavior-driven development framework for testing JavaScript code.
