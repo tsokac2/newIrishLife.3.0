@@ -332,7 +332,7 @@ Every card element contains the _MAIN LINK_ source to the external services prov
 * `$(thisCardLinkShow).addClass("rel-card");` adding class `.addClass("rel-card")` to element that is referring to `this` element
 * `$("#Card1").addClass("wrap-rel");`  adding class `.addClass("rel-card")` to element with id **Card1**
 
-The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` - [SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js) from lines **9 - 14** 
+The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` - **[SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)** from lines **9 - 14** 
 
 If user click anywhere on the screen _"loaded"_ elements will _"hide"_ and that is achieved with following `.click()` DOM effect on `<div class="blur>`.
 `.blur` element contains absolute position properties with a z-index of 1000: **[SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)** from lines **34 - 38** 
@@ -344,8 +344,8 @@ If user click anywhere on the screen _"loaded"_ elements will _"hide"_ and that 
 * Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, .col, col-sm, col-md, col-lg, etc...
 
 ## # [PYTHON 3.9.2](https://www.python.org/)
-* Used for project back-end logic, to run [app.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py), [forms.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py), [test.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py) files for full website functionalities
-* Python Modules used (Full list in [requirements.txt]):
+* Used for project back-end logic, to run **[app.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py)**, **[forms.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py)**, **[test.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py)** files for full website functionalities
+* Python Modules used (Full list in **[requirements.txt](https://github.com/tsokac2/newIrishLife.3.0/blob/main/requirements.txt)**):
   * _Flask==1.1.2_
   * _dnspython==2.1.0_
   * _Flask-Login==0.5.0_ 
@@ -414,7 +414,7 @@ DB connection details are stored in an env.py for development, for security reas
   * Set up a billing account.
   * Enable APIs associated with the products you picked.
   * Create an API key-  documentation source - [API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
-  * API keys for frontend-only applications cannot be hidden like is stated on the following link [Hide API Keys](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25), developers [Comment](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/API_Secure.png)
+  * API keys for frontend-only applications cannot be hidden like is stated on the following link [Hide API Keys](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25), developers [Comment](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/API_Secure.png)
 
 **SCRIPTS INTEGRATION:**
   * In `<head>` element place `<scripts>` in following order:
