@@ -73,12 +73,12 @@ there was a lot of info about life in Ireland, but not essentials information in
 
 
 ### Testing User Stories from User Experience (UX)
-* Definition by **HOME** section - As a First Time Visitor, I want to easily understand the main purpose of the site and my benefit of the [New Irish Life](http://new-irish-life.herokuapp.com/home):
+* Definition by **HOME** section - As a First Time Visitor, I want to easily understand the main purpose of the site and my benefit of the [New Irish Life](http://new-irish-life-3-0.herokuapp.com/home):
   * Upon entering the site user can see a clear navigation bar and company logo.
   * The main purpose is represented with a short introduction paragraph and hero image gallery.
   * Website content is pointed with four visual design cards for each section of the site.
   * Footer is well structured and offers links for the main site section and full operating Newsletter form service.
-  * User can share [New Irish Life](http://new-irish-life.herokuapp.com/home) on four social media links presented in the bottom part of the footer.
+  * User can share [New Irish Life](http://new-irish-life-3-0.herokuapp.com/home) on four social media links presented in the bottom part of the footer.
   * The main navigation menu and footer are replicated through all main sections of the website.
 
 * Definition by **TRIP** section - As a First Time Visitor, I want to easily understand section purpose with a short and fun intro paragraph and slide-show intro gallery:
@@ -544,7 +544,7 @@ All processed test and result are described in details **[HERE](https://github.c
 
 # DEPLOYMENT
 
-**[PROJECT LINK]()**
+**[PROJECT LINK](http://new-irish-life-3-0.herokuapp.com/)**
 
 ### LOCAL PROJECT SETUP:
 * Create a new repository on [GitHub](https://github.com)
