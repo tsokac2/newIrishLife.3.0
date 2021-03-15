@@ -223,3 +223,11 @@ Formatted in three main sub-sections:
 * **_Create Account_** Registration form including inputs fields for; _Username_, _Email_, _Password_, Confirm Password_ and _Sign Up_ button
 * Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
 * Home hero area with photo composition styling
+
+## LOGIN
+Section with the option to _login_ to a user profile for full website management
+
+Formatted in three main sub-sections:
+* **_Already a member_** Login form including inputs fields for; _Username_, _Password_ ,and _Login_ button
+* Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
+* Home hero area with photo composition styling
