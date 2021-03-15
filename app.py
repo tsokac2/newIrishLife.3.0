@@ -149,7 +149,7 @@ def update_tip(tip_id):
 
     tip = mongo.db.tips.find_one({"_id": ObjectId(tip_id)})
     categories = mongo.db.categories.find().sort("tip_category", 1)
-    return render_template("update_tip.html", tip=tip, categories=categories)
+    return render_template("update_tip.html", title="| Update Tip", tip=tip, categories=categories)
 
 
 @app.route("/delete_tip/<tip_id>")
