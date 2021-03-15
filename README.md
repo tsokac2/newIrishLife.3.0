@@ -523,7 +523,7 @@ DB connection details are stored in an env.py for development, for security reas
 
 ### Test Cases and Description
 
-![Test Cases](https://github.com/tsokac2/newirishlife3.3/blob/main/static/wireframes/test_cases.png)
+![Test Cases](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/test_cases.PNG)
 
 ### Access Requirements
 The tester must have access to MongoDB to manually verify the insertion of records to users and tips collections.
