@@ -111,3 +111,10 @@ there was a lot of info about life in Ireland, but not essentials information in
   * User has the choice to DELETE their profile.
   * If the user clicks on the DELETE button, a pop-up message is appearing for delete confirmation.
   * If the user clicks "YES" to confirm the delete process, the user is redirected to the HOME page with the message:  **_"Your profile is deleted!"_**.
+
+
+* Definition by **TIPS** section - As a First Time Visitor, I want to easily read through other users tips and tricks regarding work, commuting, study options, and restaurants choices:
+  * A user can search posts with keywords targeting tip title and tip description witch will result in redirecting to a search result page.
+  * By focusing on tips categories titles, users can quickly navigate and read from desired column section.
+  * If the user is logged in, users can **_Create_**, **_Update_**, and **_Delete_** tips.
+  * When the user creat tip, the user is redirected to the **TIPS** section with the success message **_Tip successfully added!_**
