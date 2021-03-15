@@ -319,7 +319,7 @@ Features: _Dom Events_, _Validation of User’s Input_, _Else and If Statement_,
 
 _TRIP_, _WORK_, and _LIFE_ sections are containing **_Quick Links_** card elements.
 
-Every card element contains the _MAIN LINK_ source to the external services provider and a **_"Quick Links..."_** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE]()
+Every card element contains the _MAIN LINK_ source to the external services provider and a **_"Quick Links..."_** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_life.png)
 
 **_base.html_** template contains <div class="blur"> just after opening tag for the background _"fade-out"_ effect
 
