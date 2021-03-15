@@ -87,3 +87,9 @@ there was a lot of info about life in Ireland, but not essentials information in
   * User can have access to the best Irish public transportation services.
   * Users can navigate through embedded Google Map with colorful markers representing the most important bus stations, train stations, and tram stations in Dublin, Ireland.
 
+* Definition by **WORK** section - As a First Time Visitor, I want to easily understand how to start a job search process with the best possible preparation for the Irish work market:
+ * Users can quickly understand where to start the job search process.
+ * User can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.3.0/static/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission.
+ * User can find the best option for online education with the best offers.
+
+ 
