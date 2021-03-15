@@ -5,4 +5,4 @@ Finding work, a place to stay where to buy good cheap food in Ireland can be dif
 advice, and planning this task can be made a lot easier.
 This website is a great starting point.
 
-![Website Main Mockup]()
+![Website Main Mockup](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_Main.png)
