@@ -332,12 +332,12 @@ Every card element contains the _MAIN LINK_ source to the external services prov
 * `$(thisCardLinkShow).addClass("rel-card");` adding class `.addClass("rel-card")` to element that is referring to `this` element
 * `$("#Card1").addClass("wrap-rel");`  adding class `.addClass("rel-card")` to element with id **Card1**
 
-The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` - [SOURCE CODE]() from lines **9 - 14** 
+The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` - [SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js) from lines **9 - 14** 
 
 If user click anywhere on the screen _"loaded"_ elements will _"hide"_ and that is achieved with following `.click()` DOM effect on `<div class="blur>`.
-`.blur` element contains absolute position properties with a z-index of 1000: [SOURCE CODE]() from lines **34 - 38** 
+`.blur` element contains absolute position properties with a z-index of 1000: [SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js) from lines **34 - 38** 
 
-**FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js]()
+**FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)
 
 ## # [BOOTSTRAP v4.5.2](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * Bootstrap was used to assist with the responsiveness and styling of the website
