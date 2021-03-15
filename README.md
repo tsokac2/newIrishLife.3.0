@@ -301,8 +301,8 @@ _**SASS IMPLEMENTATION AND FOLDER STRUCTURE**_
   * assets/scss/base - global styles for html, body and special helper classes
   * assets/scss/components - carousel image slideshow, small screen navigation menu
   * assets/scss/layout - styling for _HOME_, _TRIP_, _WORK_, _LIFE_, _TIPS_, _SIGN UP_, _LOGIN_
-  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, [EXAMPLE]()
-  * **SASS RESPONSIVE Mixins** function [EXAMPLE]()
+  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, [EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_02.png)
+  * **SASS RESPONSIVE Mixins** function [EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_03.png)
 * All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
 
 ## # [NODE.JS](https://nodejs.org/en/)
