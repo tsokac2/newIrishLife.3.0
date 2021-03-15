@@ -240,3 +240,11 @@ Formatted in three main sub-sections:
 * Option for the user to _delete_ profile
 * Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
 * Home hero area with photo composition styling
+
+## ADD TIP
+Section for active users to write and upload useful tips
+
+Formatted in three main sub-sections:
+* **_Create new tip_** Input form including inputs fields for; Choose Category, Tip Title, Tip description, and Post button
+* Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
+* Home hero area with photo composition styling
