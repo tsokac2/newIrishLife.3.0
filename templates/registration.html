@@ -5,6 +5,79 @@
         <div class="col">
             <section class="section-home">
                 <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-12 col-lg-6 reg-form">
+                                <div class="col-12 text-left">
+                                    {% with messages = get_flashed_messages(category_filter=["profile-deleted"]) %}
+                                        {% if messages %}
+                                            {% for message in messages %}
+                                            <div class="flash-warning text-left">
+                                                <h2><i class="far fa-trash-alt"></i> {{ message | safe }}</h2>
+                                            </div>
+                                            {% endfor %}
+                                        {% endif %}
+                                    {% endwith %}
+                                </div>
+                                <h2>Create Account!</h2>
+                                <p>It's free and hardly takes more than 30 seconds.</p>
+                                    <form method="POST" action="{{ url_for('registration') }}" novalidate>
+                                        {{ form.hidden_tag() }}
+                                        <div class="input-group">
+                                            <span><i class="fas fa-user"></i></span>
+                                            {{ form.username(class="userInput") }}
+                                            {% if form.username.errors %}
+                                            <div class="invalid-feedback-error">
+                                                {% for error in form.username.errors %}
+                                                <small>{{ error }}</small>
+                                                {% endfor %}
+                                            </div> 
+                                            {% endif %}
+                                        </div>
+                                        <div class="input-group">
+                                            <span><i class="far fa-paper-plane"></i></span>
+                                            {{ form.email(class="userInput") }}
+                                            {% if form.email.errors %}
+                                            <div class="invalid-feedback-error">
+                                                {% for error in form.email.errors %}
+                                                <small>{{ error }}</small>
+                                                {% endfor %}
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="input-group">
+                                            <span><i class="fas fa-user-lock"></i></span>
+                                            {{ form.password(class="userInput") }}
+                                            {% if form.password.errors %}
+                                            <div class="invalid-feedback-error">
+                                                {% for error in form.password.errors %}
+                                                <small>{{ error }}</small>
+                                                {% endfor %}
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="input-group">
+                                            <span><i class="fas fa-lock"></i></span>
+                                            {{ form.confirm_password(class="userInput") }}
+                                            {% if form.confirm_password.errors %}
+                                            <div class="invalid-feedback-error">
+                                                {% for error in form.confirm_password.errors %}
+                                                <small>{{ error }}</small>
+                                                {% endfor %}
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        {{ form.submit(class="sub-button") }}
+                                    </form>
+                                    <div class="member">
+                                        <h3><strong>Already Have An Account?<a class="ml-2" href="{{ url_for('login') }}">Login</a></strong></h3>
+                                    </div>
+                            </div>
+
+                        </div>
+                        <div class="row quote-borders p-2 mtt"></div>
+                    </div>
+
 
                 </div>
             </section>
