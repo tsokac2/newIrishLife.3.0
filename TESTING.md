@@ -17,27 +17,27 @@
 
 ### [W3C HTML Validator](https://validator.w3.org/#validate_by_uri)
 
-* HTML [Home Result]() - No errors
-* HTML [Trip Result]() - No errors
-* HTML [Work Result]() - No errors
-* HTML [Life Result]() - No errors
-* HTML [Tips Result]() -  No errors
-* HTML [Registration Result]() - No errors
-* HTML [Login Result]() - No errors
-* HTML [Add_Tip Result]() - No errors
+* HTML [Home Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Home.png) - No errors
+* HTML [Trip Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Trip.png) - No errors
+* HTML [Work Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Work.png) - No errors
+* HTML [Life Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Life.png) - No errors
+* HTML [Tips Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Tips.png) - No errors
+* HTML [Registration Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Registration.png) - No errors
+* HTML [Login Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Login.png) - No errors
+* HTML [Add_Tip Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_H_Add_tip.png) - No errors
 
 ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-* CSS [index.css Result]() - No errors
+* CSS [index.css Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_CSS.png) - No errors
 
 ### [JSHint Validator](https://jshint.com/)
-* JS file [emailnews.js Result]() - No errors
-* JS file [maps.js Result]() - No errors
-* JS file [cards.js Result]() - No errorsTESTING
+* JS file [emailnews.js Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_emailnews.png) - No errors
+* JS file [maps.js Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_maps.png) - No errors
+* JS file [cards.js Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_cardsjs.png) - No errorsTESTING
 
 ### [PEP8 Validator](http://pep8online.com/)
-* Python file [app.py Result]() - No errors
-* Python file [forms.py Result]() - No errors
-* Python file [test.py Result]() - No errors
+* Python file [app.py Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_PEP8_app.png) - No errors
+* Python file [forms.py Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_PEP8_forms.png) - No errors
+* Python file [test.py Result](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_PEP8_test.png) - No errors
 
 ****
 
