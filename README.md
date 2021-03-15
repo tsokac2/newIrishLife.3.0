@@ -149,3 +149,16 @@ there was a lot of info about life in Ireland, but not essentials information in
 **14.** Plan and implement Emailjs API service for Newsletter form.
 
 **15.** Take notes for all major development issue, their solutions, challenges, project credits, and SLACK community guidance.
+
+
+### Wireframes
+* **HOME** section general idea - for Large and Small screens devices - [View]()
+* **TRIP**, **WORK**, and **LIFE** sections general idea - for Large and Small screens devices - [View]()
+* **TRIP**, **WORK**, and **LIFE** - **_"Quick links"_** cards general idea for Small screens devices - [View]()
+* **TRIP GOOGLE MAPS** section general idea - for Large and Small screens devices [View]()
+* **TIPS** section general idea - for Large and Small screens devices - [View]() 
+* **SIGN UP** section general idea - for Large and Small screens devices - [View]()
+* **LOGIN** section general idea - for Large and Small screens devices - [View]()
+* **PROFILE** section general idea - for Large and Small screens devices - [View]()
+* **FOOTER** section general idea - for Small devices - [View]()
+* **MAIN MENU** section general idea - CSS Grid elements - for Small devices - [View]()
