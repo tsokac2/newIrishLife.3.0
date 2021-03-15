@@ -87,7 +87,7 @@ def login():
                 return redirect(url_for(
                     "profile", username=session["user"]))
             else:
-                flash("Incorrect Username and/or Password", "reg-danger")
+                flash("Incorrect Username and/or Password!", "reg-danger")
                 return redirect(url_for("login"))
         else:
             flash("Incorrect Username and/or Password", "reg-danger")
@@ -155,7 +155,7 @@ def update_tip(tip_id):
 @app.route("/delete_tip/<tip_id>")
 def delete_tip(tip_id):
     mongo.db.tips.remove({"_id": ObjectId(tip_id)})
-    flash("Tip successfully deleted, add the new one!", "tip-deleted")
+    flash("The Tip was successfully deleted, add the new one!", "tip-deleted")
     return redirect(url_for("add_tip"))
 
 
