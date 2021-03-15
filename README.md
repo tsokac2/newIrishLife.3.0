@@ -112,9 +112,40 @@ there was a lot of info about life in Ireland, but not essentials information in
   * If the user clicks on the DELETE button, a pop-up message is appearing for delete confirmation.
   * If the user clicks "YES" to confirm the delete process, the user is redirected to the HOME page with the message:  **_"Your profile is deleted!"_**.
 
-
 * Definition by **TIPS** section - As a First Time Visitor, I want to easily read through other users tips and tricks regarding work, commuting, study options, and restaurants choices:
   * A user can search posts with keywords targeting tip title and tip description witch will result in redirecting to a search result page.
   * By focusing on tips categories titles, users can quickly navigate and read from desired column section.
   * If the user is logged in, users can **_Create_**, **_Update_**, and **_Delete_** tips.
   * When the user creat tip, the user is redirected to the **TIPS** section with the success message **_Tip successfully added!_**
+
+
+### Design process
+**1.** Draft all main sections - **HOME**, **TRIP**, **WORK**, **LIFE**, **TIPS**, **SIGN UP**, **LOGIN**, and **PROFILE**.
+
+**2.** Brief list of all pop-ups and alert messages and their front-end placement.
+
+**3.** List all color pallets - usage - background color, font color, border.
+
+**4.** List all font styles for best UX, regarding user profile details, movie quotes, post titles, and descriptions.
+
+**5.** A list of free images from the free-image web platforms for each project section.
+
+**6.** Draft web-page layout using Adobe Photoshop and Balsamiq for the main layout and Adobe Illustrator for layout components such as Logo, borders, navigation elements.
+
+**7.** List possible Fowtawesome Icon for best UX in picture experiences and a draft of custom icons.
+
+**8.** Plan Python and Flask implementation into project root infrastructure folder.
+
+**9.** List Semantic Mark-up to structure HTML code.
+
+**10.** List CSS folder structure for SASS Pre-processor configuration.
+
+**11.** List of preferable Python packages for best possible performance and UX. 
+
+**12.** Plan database collections structure - user collection details, user tips collection details, and tips categories list
+
+**13.** Plan and implement Google Maps API for orientation purposes.
+
+**14.** Plan and implement Emailjs API service for Newsletter form.
+
+**15.** Take notes for all major development issue, their solutions, challenges, project credits, and SLACK community guidance.
