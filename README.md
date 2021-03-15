@@ -162,3 +162,11 @@ there was a lot of info about life in Ireland, but not essentials information in
 * **PROFILE** section general idea - for Large and Small screens devices - [View](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_Profile.png)
 * **FOOTER** section general idea - for Small devices - [View](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_MF.png)
 * **MAIN MENU** section general idea - CSS Grid elements - for Small devices - [View](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_MM.png)
+
+### Main Layout
+* MENU: HOME | TRIP | WORK | STUDY | TIPS  --LOGO--  SIGN UP | LOGIN - after user login - +TIPS | PROFILE | LOGOUT
+* MAIN SECTIONS: Website features - HOME, TRIP, WORK, LIFE,  SIGN UP, LOGIN -- +TIPS | PROFILE
+* FOOTER: Footer Menu links - Newsletter Subtraction - Social Media links - Copyrights
+
+****
+
