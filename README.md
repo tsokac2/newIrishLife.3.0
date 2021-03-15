@@ -152,7 +152,7 @@ there was a lot of info about life in Ireland, but not essentials information in
 
 
 ### Wireframes
-* **HOME** section general idea - for Large and Small screens devices - [View]()
+* **HOME** section general idea - for Large and Small screens devices - [View](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/W3_Home.png)
 * **TRIP**, **WORK**, and **LIFE** sections general idea - for Large and Small screens devices - [View]()
 * **TRIP**, **WORK**, and **LIFE** - **_"Quick links"_** cards general idea for Small screens devices - [View]()
 * **TRIP GOOGLE MAPS** section general idea - for Large and Small screens devices [View]()
