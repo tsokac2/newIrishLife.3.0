@@ -106,3 +106,8 @@ there was a lot of info about life in Ireland, but not essentials information in
   * By entering the Username and password and if either input details are invalid, the user is receiving a warning message.
   * By entering the correct username and password the user is redirected to the profile page.
 
+* Definition by **PROFILE** section - After the first successful login, I want to be redirected to my profile page: 
+  * On the profile, page the user can see the following details: Username, Email, and Joining Date.
+  * User has the choice to DELETE their profile.
+  * If the user clicks on the DELETE button, a pop-up message is appearing for delete confirmation.
+  * If the user clicks "YES" to confirm the delete process, the user is redirected to the HOME page with the message:  **_"Your profile is deleted!"_**.
