@@ -266,3 +266,245 @@ Expansion plan:
 
 ****
 
+# TECHNOLOGIES USED
+
+## # [HTML](https://en.wikipedia.org/wiki/HTML)
+**Semantic elements**: _nav_, _section_, _footer_, _div_(content division element), _span_(inline container), _i_ (text element)
+
+## # [CSS3](https://en.wikipedia.org/wiki/CSS)
+**Modules:** Borders, Background and text-effects, Flexible Box Layout, CSS Grid Layout, CSS Transitions, CSS Image Values & Replaced Content, CSS Values & Units
+
+## # [SASS PRE-PROCESSOR](https://sass-lang.com/)
+**TOOLS INCLUDED:**
+* SASS interpolation
+* SASS Mixings - Responsive layout functions
+* SASS Variables
+* SASS Nesting
+* SASS Compiler
+
+**COMPILER IMPLEMENTATION:**
+* Open Command Prompt
+* Navigate to the root project folder
+* Enter commands in the following order:
+  * `npm init --yes` - **PRESS ENTER**
+  * `npm i -g node-sass` - **PRESS ENTER**
+  * In `{} package.json` file under the `"scripts"` type the [FOLLOWING]()
+* To start **SASS Compiler** enter the following command: `npm run watch` - **PRESS ENTER**
+* If no errors the compilation process _NPM SERVER_ will start with the following console log message:
+    ```
+    > new@1.0.0 watch C:\Users\Tomislav\Desktop\new
+    > node-sass -o assets/css assets/scss/index.scss -w
+    ```
+_**SASS IMPLEMENTATION AND FOLDER STRUCTURE**_
+* Create the following folder structure:
+  * assets/scss/abstracts - global SASS **variables** and **mixins** function
+  * assets/scss/base - global styles for html, body and special helper classes
+  * assets/scss/components - carousel image slideshow, small screen navigation menu
+  * assets/scss/layout - styling for _HOME_, _TRIP_, _WORK_, _LIFE_, _TIPS_, _SIGN UP_, _LOGIN_
+  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, [EXAMPLE]()
+  * **SASS RESPONSIVE Mixins** function [EXAMPLE]()
+* All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
+
+## # [NODE.JS](https://nodejs.org/en/)
+* Use for NPM `package.json` file implemetation in to project root
+
+## # [NPM](https://www.npmjs.com/)
+* Package manager - Use package - `node-sass`
+
+## # [JAVASCRIPT](https://www.javascript.com/)
+Features: _Dom Events_, _Validation of User’s Input_, _Else and If Statement_, _Handling Events_,  _In Built Function_
+
+## # [JQUERY](https://fonts.google.com/)
+**APPLIED jQuery DOM EVENTS** for highlighting **_"Quick Links"_** cards elements
+
+_TRIP_, _WORK_, and _LIFE_ sections are containing **_Quick Links_** card elements.
+
+Every card element contains the _MAIN LINK_ source to the external services provider and a **_"Quick Links..."_** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE]()
+
+**_base.html_** template contains <div class="blur"> just after opening tag for the background _"fade-out"_ effect
+
+**jQuery DOM Events** used for above-mentioned cards element functionality:
+
+* Element with id **#showLinks1** was clicked
+* `var thisCardLinkShow = "." + this.id + "-grid";` checking for `<div>` element with class `.showLinks1-grid`
+* `$(thisCardLinkShow).show(300)` referring to `this` element to `.show()` with speed of 300 milliseconds
+* `$(".blur").fadeIn(400)` loading background "blur" effect with speed of 400 milliseconds
+* `$(thisCardLinkShow).addClass("rel-card");` adding class `.addClass("rel-card")` to element that is referring to `this` element
+* `$("#Card1").addClass("wrap-rel");`  adding class `.addClass("rel-card")` to element with id **Card1**
+
+The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` - [SOURCE CODE]() from lines **9 - 14** 
+
+If user click anywhere on the screen _"loaded"_ elements will _"hide"_ and that is achieved with following `.click()` DOM effect on `<div class="blur>`.
+`.blur` element contains absolute position properties with a z-index of 1000: [SOURCE CODE]() from lines **34 - 38** 
+
+**FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js]()
+
+## # [BOOTSTRAP v4.5.2](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* Bootstrap was used to assist with the responsiveness and styling of the website
+* Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, .col, col-sm, col-md, col-lg, etc...
+
+## # [PYTHON 3.9.2](https://www.python.org/)
+* Used for project back-end logic, to run [app.py](), [routes.py](), [from.py]()  files for full website functionalities
+* Python Modules used (Full list in [requirements.txt]):
+  * _Flask==1.1.2_
+  * _dnspython==2.1.0_
+  * _Flask-Login==0.5.0_ 
+  * _Flask-PyMongo==2.3.0_
+  * _Flask-WTF==0.14.3_
+  * _Jinja2==2.11.2_
+  * _mongoengine==0.22.1_
+  * _pymongo==3.11.3_
+  * _Werkzeug==1.0.1_
+  * _WTForms==2.3.3_
+
+## # [MongoDB](https://www.mongodb.com/1)
+* Used to create the document-based databases(collections)
+* Used as data storage for this users registration and login details
+* Used as data storage for user post(tips) details
+
+**IMPLEMENTATION STEPS:**
+* Create MongoDB Account
+* Create Cluster
+* Select Cluster  > **Collections** > **+ Create database** > **Create Collection**
+* MongoDB Collection Object format schema examples:
+  * Collection: **_categories_**
+  ```
+    {
+      _id: ObjectId("unique-value")
+      tip_category: "Trip"
+    }
+  ```
+  * Collection: **_tips_**
+
+   ```
+    {
+      _id: ObjectId("unique-value")
+      tip_category : "Food"
+      tip_title: "Food Glorisu Food"
+      tip_description: "Best burger is bunsen burger"
+      date_added: 2021-02-28T11:25:00.557+00:00
+      created_by: "John"
+    }
+  ```
+  * Collection: **_users_**
+
+  ```
+  {
+    _id: ObjectId("unique-value")
+    username : "John"
+    email: "john@email.com"
+    password: "unique-value"
+    date_created: 2021-02-28T11:25:00.557+00:00
+  }
+  ```
+**DATABASE SECURITY**
+DB connection details are stored in an env.py for development, for security reasons, this is not uploaded to GitHub so that database and connection details are not visible to the public and end-users.
+
+## # [HEROKU](https://www.heroku.com)
+* Cloud platform service used for hosting a "live" version of the project
+
+## # [GOOGLE CDN's](https://fonts.google.com/) and [GOOGLE API](https://developers.google.com/maps/gmp-get-started#quickstart)
+* Google Fonts - [Merienda](https://fonts.google.com/specimen/Merienda?preview.text=&preview.text_type=custom&query=mer)
+* Google Fonts - [Lato](https://fonts.google.com/?preview.text=&preview.text_type=custom&query=LATO)
+* Google Fonts - [Josefin](https://fonts.google.com/specimen/Josefin+Sans?preview.text_type=custom)
+
+**GOOGLE API IMPLEMENTATION STEPS:**
+  * Pick Google Maps product [More info](https://developers.google.com/maps/gmp-get-started#quickstart)
+  * Create a project.
+  * Set up a billing account.
+  * Enable APIs associated with the products you picked.
+  * Create an API key-  documentation source - [API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+  * API keys for frontend-only applications cannot be hidden like is stated on the following link [Hide API Keys](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25), developers [Comment](https://github.com/tsokac2/newIrishLife.2.0/blob/master/assets/wireframes/API_Secure.png)
+
+**SCRIPTS INTEGRATION:**
+  * In `<head>` element place `<scripts>` in following order:
+
+    ```
+    <script src="assets/js/markerclusterer_compiled.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key="YOUR API KEY"&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
+    ```
+  * Create `<div>` element with ID `<div id="map">` render map place
+  * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
+  * Creating call-back function in `<script src="assets/js/maps.js"></script>` -  [CODE EXAMPLE]() from lines **1 - 36** 
+
+* `function initMap() {..}` maps location on a major scale in this case Dublin, Ireland
+* `google.maps.event.addDomListener(window, "resize", function() {...}` adding Google Maps DOM listener
+* `let busMarkerIcon = {...}` creating custom map marker with `scaledSize` property
+* `const Bus747Stop = new google.maps.Marker({...});` pointing to Bus Stop for 747 Dublin Bus line for Dublin Airport
+
+**FULL SOURCE CODE:** GOOGLE MAPS API [maps.js]()
+
+## # [EMAILJS](https://dashboard.emailjs.com/sign-in)
+**IMPLEMENTATION**
+* Add New Service - Gmail
+* Email Templates - Create New Template
+* Use following syntax for form attributes, syntax {{form_name}}
+* SENT Email content from a user
+* Select the Auto-Reply option and place the following: **_SUBJECT**: On behalf of all of us from New Irish Life, welcome onboard!_
+* **WELCOMING** [Email]() content sent to the user after successful submission
+
+**SCRIPTS INTEGRATION:**
+ * Before closing **`<head>`** element place following **CDN** script tag:
+    * `<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>`
+  * Place following call-back function after **CDN** link
+
+  ```
+  <script type="text/javascript">
+        (function() {
+        emailjs.init("user_hI6S08d1aK1XKKU2VWtOI");
+        })();
+  </script>
+  ```
+  * Check `User ID` under "Integration" option on EmailJS dashboard
+  * Create `sendEmail` function [CODE EXAMPLE]() from lines **88 - 103** 
+
+**FROM VALIDATION DEVELOPMENT**
+* Create [EventTarget]() method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function - [CODE EXAMPLE]() from lines **1 - 3** 
+*  Create 2 validation function for UX purposes, `validateName()` and `validateEmail()` function.
+* `validateName()` function is _**returning**_ Boolean value `true` or `false` that is stored in empty variable `var valid;` depending of a user input string value - [CODE EXAMPLE]() from lines **5 - 22**
+* Implement call-back functions regarding what kind of input value was submitted by a user.
+* `pushSuccessFor()` function is adding a `.success` class to the input element when user input is valid - [CODE EXAMPLE]() from lines **55 - 58**
+* User email validation is stored in the `validateEmail()` function with a call-back function that is checking user email - [SOURCE]()
+* To get a valid email id we use a regular expression
+* Regular Expression Pattern : `/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/`
+* `testEmail()` function:
+
+  ```
+    function testEmail(email) {
+        return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+    };
+  ```
+
+* To submit user data to the server we are declaring `send()` function in variable `var send = function(){...};` and calling that function when submit `<button>` is triggered - [CODE EXAMPLE]() from lines **60 - 76**
+
+* Validation tests are covered in [TESTING.MD]() file
+
+## # [JASMINE BEHAVIOR-DRIVEN JavaScript](https://jasmine.github.io)
+* Full testing and implementation process described in [TESTING.MD]() file 
+
+## # [FONTAWESOME](https://fontawesome.com/) 
+* Use mostly for menu items and across projects elements
+
+## # [GIT](https://git-scm.com/)
+* Distributed version control system
+
+## # [GITHUB](https://github.com/)
+* Project files hosting platform
+
+## # [IDE Visual Studio Code](https://code.visualstudio.com/)
+* Project code editor 
+
+## # [ADOBE PHOTOSHOP](https://www.adobe.com/)
+* Images preparation - Logo Design
+
+## # [ADOBE ILLUSTRATOR](https://www.adobe.com/)
+* Logo Design 
+
+## # [BALSAMIQ WIREFRAMES](https://balsamiq.com/) 
+* Wireframes Design
+
+## # [AM I Responsive?](http://ami.responsivedesign.is/)
+* Multi-Device Website Mockup Generator was used to create the project Mockup image
+
+****
