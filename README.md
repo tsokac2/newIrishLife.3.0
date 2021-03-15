@@ -92,4 +92,8 @@ there was a lot of info about life in Ireland, but not essentials information in
  * User can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.3.0/static/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission.
  * User can find the best option for online education with the best offers.
 
- 
+* Definition by **LIFE** section - As a First Time Visitor, I want to easily find the best online rental marketplaces, the most popular mobile networks provider, and large-chain grocery shops
+  * User can choose one of the four most popular Irish online rental portals with quick links for share accommodation or buy options.
+  * Users can quickly decide for best mobile network providers regarding broadband speed, bill pay offers, Tv broadband offers.
+  * Users can check the four largest grocery shop chains with previous user reviews, best deals, work offerings.
+
