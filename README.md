@@ -460,12 +460,12 @@ DB connection details are stored in an env.py for development, for security reas
   * Create `sendEmail` function **[CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/emailnews.js)** from lines **88 - 103** 
 
 **FROM VALIDATION DEVELOPMENT**
-* Create [EventTarget]() method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function - [CODE EXAMPLE]() from lines **1 - 3** 
+* Create **[EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)** method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function - **[CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/emailnews.js)** from lines **1 - 3** 
 *  Create 2 validation function for UX purposes, `validateName()` and `validateEmail()` function.
 * `validateName()` function is _**returning**_ Boolean value `true` or `false` that is stored in empty variable `var valid;` depending of a user input string value - [CODE EXAMPLE]() from lines **5 - 22**
 * Implement call-back functions regarding what kind of input value was submitted by a user.
-* `pushSuccessFor()` function is adding a `.success` class to the input element when user input is valid - [CODE EXAMPLE]() from lines **55 - 58**
-* User email validation is stored in the `validateEmail()` function with a call-back function that is checking user email - [SOURCE]()
+* `pushSuccessFor()` function is adding a `.success` class to the input element when user input is valid - **[CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/emailnews.js)** from lines **55 - 58**
+* User email validation is stored in the `validateEmail()` function with a call-back function that is checking user email - **[SOURCE](https://www.w3resource.com/javascript/form/email-validation.php)**
 * To get a valid email id we use a regular expression
 * Regular Expression Pattern : `/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/`
 * `testEmail()` function:
@@ -476,7 +476,7 @@ DB connection details are stored in an env.py for development, for security reas
     };
   ```
 
-* To submit user data to the server we are declaring `send()` function in variable `var send = function(){...};` and calling that function when submit `<button>` is triggered - [CODE EXAMPLE]() from lines **60 - 76**
+* To submit user data to the server we are declaring `send()` function in variable `var send = function(){...};` and calling that function when submit `<button>` is triggered - **[CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/emailnews.js)** from lines **60 - 76**
 
 * Validation tests are covered in [TESTING.MD]() file
 
