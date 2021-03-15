@@ -165,8 +165,20 @@ there was a lot of info about life in Ireland, but not essentials information in
 
 ### Main Layout
 * MENU: HOME | TRIP | WORK | STUDY | TIPS  --LOGO--  SIGN UP | LOGIN - after user login - +TIPS | PROFILE | LOGOUT
-* MAIN SECTIONS: Website features - HOME, TRIP, WORK, LIFE,  SIGN UP, LOGIN -- +TIPS | PROFILE
+* MAIN SECTIONS: Website features - HOME, TRIP, WORK, LIFE,  SIGN UP, LOGIN - +TIPS | PROFILE
 * FOOTER: Footer Menu links - Newsletter Subtraction - Social Media links - Copyrights
 
 ****
+
+# FEATURES
+
+## HOME
+Simple introduction of web page purpose and what value it is bringing to an end-user.
+
+Formatted in three main sub-sections:
+* Movie reference pitch - from -  _"The Hobbit: An Unexpected Journey"_
+* Welcoming **_"Hero"_** area with picture composition
+* Quick box-model overview of the web page main sections
+* Footer section including; Mirroring top left menu for **HOME**, **TRIP**, **WORK**, **LIFE**, **TIPS**, followed with **Newsletter** user email subscribe services form [View Screenshot]() and finishing with social networks links for user sharing purposes
+* The Footer section is replicated across all website sub-section pages for better UX
 
