@@ -97,3 +97,8 @@ there was a lot of info about life in Ireland, but not essentials information in
   * Users can quickly decide for best mobile network providers regarding broadband speed, bill pay offers, Tv broadband offers.
   * Users can check the four largest grocery shop chains with previous user reviews, best deals, work offerings.
 
+* Definition by **SIGN UP** section - As a First Time Visitor, I want to see straight up what kind of details are needed for a successful registration:
+  * By entering Username, the user can see if chosen Username is already taken or is below 2 characters, or it is completely valid.
+  * By entering an Email address, the user can see if the email address is valid or already in use, or is completely valid.
+  * By entering the password, the user must confirm the password for additional data security.
+
