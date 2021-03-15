@@ -256,6 +256,7 @@ The security of your Google Cloud Platform account(s) is important to us.
 
 **ISSUE #5**
 Error:
+
 ![PY_1](https://github.com/tsokac2/newirishlife.3.0/blob/main/static/wireframes/P1_1.png)
 
 SOLUTION: Define the correct path for profile.html in the `app.py` file
@@ -263,6 +264,7 @@ SOLUTION: Define the correct path for profile.html in the `app.py` file
 
 **ISSUE #6**
 Error:
+
 ![PY_2](https://github.com/tsokac2/newirishlife.3.0/blob/main/static/wireframes/P1_2.png)
 
 SOLUTION: Define the correct filed name in users collections on MongoDB
