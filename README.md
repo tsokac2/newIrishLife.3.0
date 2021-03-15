@@ -288,7 +288,7 @@ Expansion plan:
 * Enter commands in the following order:
   * `npm init --yes` - **PRESS ENTER**
   * `npm i -g node-sass` - **PRESS ENTER**
-  * In `{} package.json` file under the `"scripts"` type the [FOLLOWING](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_01.png)
+  * In `{} package.json` file under the `"scripts"` type the **[FOLLOWING](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_01.png)**
 * To start **SASS Compiler** enter the following command: `npm run watch` - **PRESS ENTER**
 * If no errors the compilation process _NPM SERVER_ will start with the following console log message:
     ```
@@ -301,8 +301,8 @@ _**SASS IMPLEMENTATION AND FOLDER STRUCTURE**_
   * assets/scss/base - global styles for html, body and special helper classes
   * assets/scss/components - carousel image slideshow, small screen navigation menu
   * assets/scss/layout - styling for _HOME_, _TRIP_, _WORK_, _LIFE_, _TIPS_, _SIGN UP_, _LOGIN_
-  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, [EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_02.png)
-  * **SASS RESPONSIVE Mixins** function [EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_03.png)
+  * assets/scss/_index.scss - referencing all `*.scss` files in folder structure, **[EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_02.png)**
+  * **SASS RESPONSIVE Mixins** function **[EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_03.png)**
 * All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
 
 ## # [NODE.JS](https://nodejs.org/en/)
@@ -319,7 +319,7 @@ Features: _Dom Events_, _Validation of User’s Input_, _Else and If Statement_,
 
 _TRIP_, _WORK_, and _LIFE_ sections are containing **_Quick Links_** card elements.
 
-Every card element contains the _MAIN LINK_ source to the external services provider and a **_"Quick Links..."_** button element for loading detailed links when the user chose the services provider destination. [EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_life.png)
+Every card element contains the _MAIN LINK_ source to the external services provider and a **_"Quick Links..."_** button element for loading detailed links when the user chose the services provider destination. **[EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_life.png)**
 
 **_base.html_** template contains <div class="blur"> just after opening tag for the background _"fade-out"_ effect
 
@@ -337,7 +337,7 @@ The process is replicated for the `<button id="#hideLinks1">` element with the i
 If user click anywhere on the screen _"loaded"_ elements will _"hide"_ and that is achieved with following `.click()` DOM effect on `<div class="blur>`.
 `.blur` element contains absolute position properties with a z-index of 1000: **[SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)** from lines **34 - 38** 
 
-**FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)
+**FULL SOURCE CODE:** for jQuery Cards DOM Events **[cards.js](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)**
 
 ## # [BOOTSTRAP v4.5.2](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * Bootstrap was used to assist with the responsiveness and styling of the website
@@ -404,17 +404,17 @@ DB connection details are stored in an env.py for development, for security reas
 * Cloud platform service used for hosting a "live" version of the project
 
 ## # [GOOGLE CDN's](https://fonts.google.com/) and [GOOGLE API](https://developers.google.com/maps/gmp-get-started#quickstart)
-* Google Fonts - [Merienda](https://fonts.google.com/specimen/Merienda?preview.text=&preview.text_type=custom&query=mer)
-* Google Fonts - [Lato](https://fonts.google.com/?preview.text=&preview.text_type=custom&query=LATO)
-* Google Fonts - [Josefin](https://fonts.google.com/specimen/Josefin+Sans?preview.text_type=custom)
+* Google Fonts - **[Merienda](https://fonts.google.com/specimen/Merienda?preview.text=&preview.text_type=custom&query=mer)**
+* Google Fonts - **[Lato](https://fonts.google.com/?preview.text=&preview.text_type=custom&query=LATO)**
+* Google Fonts - **[Josefin](https://fonts.google.com/specimen/Josefin+Sans?preview.text_type=custom)**
 
 **GOOGLE API IMPLEMENTATION STEPS:**
   * Pick Google Maps product [More info](https://developers.google.com/maps/gmp-get-started#quickstart)
   * Create a project.
   * Set up a billing account.
   * Enable APIs associated with the products you picked.
-  * Create an API key-  documentation source - [API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
-  * API keys for frontend-only applications cannot be hidden like is stated on the following link [Hide API Keys](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25), developers [Comment](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/API_Secure.png)
+  * Create an API key-  documentation source - **[API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)**
+  * API keys for frontend-only applications cannot be hidden like is stated on the following link [Hide API Keys](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25), developers **[Comment](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/API_Secure.png)**
 
 **SCRIPTS INTEGRATION:**
   * In `<head>` element place `<scripts>` in following order:
@@ -425,15 +425,15 @@ DB connection details are stored in an env.py for development, for security reas
     <script src="assets/js/maps.js"></script>
     ```
   * Create `<div>` element with ID `<div id="map">` render map place
-  * Marker Cluster CDN - [SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)
-  * Creating call-back function in `<script src="assets/js/maps.js"></script>` -  [CODE EXAMPLE]() from lines **1 - 36** 
+  * Marker Cluster CDN - **[SOURCE](https://cdnjs.com/libraries/js-marker-clusterer)**
+  * Creating call-back function in `<script src="assets/js/maps.js"></script>` - **[CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/maps.js)** from lines **1 - 36** 
 
 * `function initMap() {..}` maps location on a major scale in this case Dublin, Ireland
 * `google.maps.event.addDomListener(window, "resize", function() {...}` adding Google Maps DOM listener
 * `let busMarkerIcon = {...}` creating custom map marker with `scaledSize` property
 * `const Bus747Stop = new google.maps.Marker({...});` pointing to Bus Stop for 747 Dublin Bus line for Dublin Airport
 
-**FULL SOURCE CODE:** GOOGLE MAPS API [maps.js]()
+**FULL SOURCE CODE:** GOOGLE MAPS API **[maps.js](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/maps.js)**
 
 ## # [EMAILJS](https://dashboard.emailjs.com/sign-in)
 **IMPLEMENTATION**
