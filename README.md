@@ -622,3 +622,32 @@ When the project is fully configured to start _localhost_ server, in CMD navigat
 In the web browser of your choice type: `localhost:5000` to preview the project
 
 ****
+
+# CREDITS
+* Intro pitch - [*"The Hobbit: An Unexpected Journey"*](https://en.wikipedia.org/wiki/The_Hobbit_(film_series))
+* Website images source - [UNSPLASH](https://unsplash.com/s/photos/smartphone)
+* Website images source - [PIXABAY](https://pixabay.com/photos)
+  * [User: wiredsmartio](https://pixabay.com/users/wiredsmartio-14931632/)
+  * [User: geralt](https://pixabay.com/users/geralt-9301/)
+  * [User: ds_30](https://pixabay.com/users/ds_30-1795490/)
+  * [User: pexels](https://pixabay.com/users/pexels-2286921/)
+  * [User: firmbee](https://pixabay.com/users/firmbee-663163/)
+  * [User: wokandapix](https://pixabay.com/users/wokandapix-614097/)
+  * [User: publicco](https://pixabay.com/users/publicco-5009832/)
+
+* Home page icons - [Flaticon](https://www.flaticon.com/)
+
+### CODE
+* [Bootstrap Carousel Fade Effect](https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/)
+* [Resizing Google Maps markers](https://stackoverflow.com/questions/15096461/resize-google-maps-marker-icon-image)
+* [Jasmine-jQuery: Set of jQuery helpers](https://bowercdn.net/c/jasmine-jquery-2.1.1/lib/jasmine-jquery.js)
+
+### ACKNOWLEDGEMENTS
+Special thanks to the following people for their help with my project:
+
+* Slack user [Daisy McGirr](https://github.com/Daisy-McG) for inspiration on how to write README.MD for M3.
+* Slack user [Simon Vardy](https://github.com/simonjvardy) for giving me an idea of using data to be displayed on the user profile page.
+* Slack user [Ed Bradley](https://github.com/Edb83?tab=repositories) - for testing project functionality, spotting couple CSS issues, and the idea of uploading images on S3 AWS as a project migration possibility.
+* Anna Villanueva for always fun and informative mentorship sessions.
+
+****
