@@ -215,3 +215,11 @@ Formatted in three main sub-sections:
 * **_TIPS_** Introduction and purpose of the tips section
 * **_SEARCH_** Ability to search posted tips by referring to tip title and tip description
 * Tips cards container with four tip categories including  _Trip_, _Work_, _Study_, and _Food_ 
+
+## SIGN UP
+Section with the option to _create_ a user profile for full website management
+
+Formatted in three main sub-sections:
+* **_Create Account_** Registration form including inputs fields for; _Username_, _Email_, _Password_, Confirm Password_ and _Sign Up_ button
+* Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
+* Home hero area with photo composition styling
