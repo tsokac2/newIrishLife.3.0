@@ -191,3 +191,10 @@ Formatted in two main sub-sections:
 * **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks.png)
 * **Google Maps** with a tracker for public transportation and _"Hot"_ locations in Dublin city with 3 markers in different colors for **Dublin Bus**, **Dart Train**, and **Luas** services - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/googlemap.png)
 
+## WORK
+Introduction and quick links of the most popular Irish online recruitment sites with an additional section for online education possibilities
+
+Formatted in two main sub-sections:
+* **_START HERE_** Most popular job search services for the Irish job market
+* **_BACK TO SCHOOL_** Most popular online courses and full-time education institutions
+* **_Quick Links..._** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_work.png)
