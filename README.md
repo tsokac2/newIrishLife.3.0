@@ -248,3 +248,21 @@ Formatted in three main sub-sections:
 * **_Create new tip_** Input form including inputs fields for; Choose Category, Tip Title, Tip description, and Post button
 * Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
 * Home hero area with photo composition styling
+
+## CROS-PROJECT FEATURES
+The Main Menu is placed on to header and footer part of the website.
+
+The  Main Menu bar is designed for large and small devices for the best UX.
+
+Welcoming **Home** _"Hero"_ section; **Home** image composition section followed with four cards with _Trip_, _Work_, _Study_ ,and _News_ headings is replicated through the website.
+
+### Features Left to Implement
+
+Expansion plan:
+* Implementing comments section for the users, regarding specific website content.
+* Implement section for all necessary documentation in Ireland, regarding and PPS number, Bank Account option.
+* Implement section regarding social events and gathering for necessary user connection expansion.
+* Offer **_" Jobs Adds"_** section for recruitment agencies  - a connection between end-user and possible employer or recruitment agent.
+
+****
+
