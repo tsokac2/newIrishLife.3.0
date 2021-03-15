@@ -81,3 +81,9 @@ there was a lot of info about life in Ireland, but not essentials information in
   * User can share [New Irish Life](http://new-irish-life.herokuapp.com/home) on four social media links presented in the bottom part of the footer.
   * The main navigation menu and footer are replicated through all main sections of the website.
 
+* Definition by **TRIP** section - As a First Time Visitor, I want to easily understand section purpose with a short and fun intro paragraph and slide-show intro gallery:
+  * User can choose the most popular online travel brands to organize in card elements.
+  * Each card element contains the main link, the brand website screenshot, the **_"Quick links..."_** option, and a brand description.
+  * User can have access to the best Irish public transportation services.
+  * Users can navigate through embedded Google Map with colorful markers representing the most important bus stations, train stations, and tram stations in Dublin, Ireland.
+
