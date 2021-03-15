@@ -231,3 +231,12 @@ Formatted in three main sub-sections:
 * **_Already a member_** Login form including inputs fields for; _Username_, _Password_ ,and _Login_ button
 * Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
 * Home hero area with photo composition styling
+
+## PROFILE
+Section for user profile details and delete option
+
+Formatted in three main sub-sections:
+* **_Profile info_** User details listed in the following order; _Username_, _Email_, _Joined Date_
+* Option for the user to _delete_ profile
+* Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
+* Home hero area with photo composition styling
