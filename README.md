@@ -457,7 +457,7 @@ DB connection details are stored in an env.py for development, for security reas
   </script>
   ```
   * Check `User ID` under "Integration" option on EmailJS dashboard
-  * Create `sendEmail` function [CODE EXAMPLE]() from lines **88 - 103** 
+  * Create `sendEmail` function **[CODE EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/emailnews.js)** from lines **88 - 103** 
 
 **FROM VALIDATION DEVELOPMENT**
 * Create [EventTarget]() method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target, in this case `newsletter()` function - [CODE EXAMPLE]() from lines **1 - 3** 
