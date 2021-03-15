@@ -288,7 +288,7 @@ Expansion plan:
 * Enter commands in the following order:
   * `npm init --yes` - **PRESS ENTER**
   * `npm i -g node-sass` - **PRESS ENTER**
-  * In `{} package.json` file under the `"scripts"` type the [FOLLOWING]()
+  * In `{} package.json` file under the `"scripts"` type the [FOLLOWING](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/sass_01.png)
 * To start **SASS Compiler** enter the following command: `npm run watch` - **PRESS ENTER**
 * If no errors the compilation process _NPM SERVER_ will start with the following console log message:
     ```
