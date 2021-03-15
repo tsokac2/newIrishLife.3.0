@@ -335,7 +335,7 @@ Every card element contains the _MAIN LINK_ source to the external services prov
 The process is replicated for the `<button id="#hideLinks1">` element with the id of `#hideLinks1` for the "hiding" effect with `.removeClass("wrap-rel");` - [SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js) from lines **9 - 14** 
 
 If user click anywhere on the screen _"loaded"_ elements will _"hide"_ and that is achieved with following `.click()` DOM effect on `<div class="blur>`.
-`.blur` element contains absolute position properties with a z-index of 1000: [SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js) from lines **34 - 38** 
+`.blur` element contains absolute position properties with a z-index of 1000: **[SOURCE CODE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)** from lines **34 - 38** 
 
 **FULL SOURCE CODE:** for jQuery Cards DOM Events [cards.js](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/js/cards.js)
 
@@ -344,7 +344,7 @@ If user click anywhere on the screen _"loaded"_ elements will _"hide"_ and that 
 * Mani layout control - responsive layout usage - helper classes included - example -  .mt, .pt, .d-none .d-md-block, .col, col-sm, col-md, col-lg, etc...
 
 ## # [PYTHON 3.9.2](https://www.python.org/)
-* Used for project back-end logic, to run [app.py](), [routes.py](), [from.py]()  files for full website functionalities
+* Used for project back-end logic, to run [app.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py), [forms.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py), [test.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/app.py) files for full website functionalities
 * Python Modules used (Full list in [requirements.txt]):
   * _Flask==1.1.2_
   * _dnspython==2.1.0_
