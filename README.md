@@ -207,3 +207,11 @@ Formatted in three main sub-sections:
 * **_MOBILE NETWORKS_** Mobile/internet networks providers
 * **_GROCERY SHOPS_** Irish Top food chains for grocery shopping
 * **_Quick Links..._** Quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_life.png)
+
+## TIPS
+Section with tips and useful advice from other users
+
+Formatted in three main sub-sections:
+* **_TIPS_** Introduction and purpose of the tips section
+* **_SEARCH_** Ability to search posted tips by referring to tip title and tip description
+* Tips cards container with four tip categories including  _Trip_, _Work_, _Study_, and _Food_ 
