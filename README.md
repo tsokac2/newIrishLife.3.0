@@ -179,6 +179,15 @@ Formatted in three main sub-sections:
 * Movie reference pitch - from -  _"The Hobbit: An Unexpected Journey"_
 * Welcoming **_"Hero"_** area with picture composition
 * Quick box-model overview of the web page main sections
-* Footer section including; Mirroring top left menu for **HOME**, **TRIP**, **WORK**, **LIFE**, **TIPS**, followed with **Newsletter** user email subscribe services form [View Screenshot]() and finishing with social networks links for user sharing purposes
+* Footer section including; Mirroring top left menu for **HOME**, **TRIP**, **WORK**, **LIFE**, **TIPS**, followed with **Newsletter** user email subscribe services form [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/email.png) and finishing with social networks links for user sharing purposes
 * The Footer section is replicated across all website sub-section pages for better UX
+
+## TRIP
+Section introduction with intro reference and **"call-to-action"** headings
+
+Formatted in two main sub-sections:
+* **_CHOOSE WISELY_** Flights booking web services
+* **_HOP ON_** Ireland public transportation's most popular options and guidelines
+* **Quick Links...** quick link option for precise user search in specified link area - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks.png)
+* **Google Maps** with a tracker for public transportation and _"Hot"_ locations in Dublin city with 3 markers in different colors for **Dublin Bus**, **Dart Train**, and **Luas** services - [View Screenshot](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/googlemap.png)
 
