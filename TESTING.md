@@ -72,7 +72,7 @@ Testing was processed to ensure that routing functionality is redirecting users 
 * Test **Tips** page load response
 * Test **Sign Up** page load response
 * Test **Login** page load response
-* Command line 7 [Tests Result](https://github.com/tsokac2/newirishlife.3.0/blob/main/static/wireframes/W3_unittest.png)
+* Command-line 7 [Tests Result](https://github.com/tsokac2/newirishlife.3.0/blob/main/static/wireframes/W3_unittest.png)
 
 **FULL SOURCE CODE:** [test.py](https://github.com/tsokac2/newIrishLife.3.0/blob/main/test.py)
 
@@ -80,11 +80,11 @@ Testing was processed to ensure that routing functionality is redirecting users 
 Behavior-driven development framework for testing JavaScript code.
 
 #### Testing DOM Events Using jQuery and Jasmine 2.0
-1. STEP: Create **testing** folder in project root folder - **../testing**
+1. STEP: Create a **testing** folder in the project root folder - **../testing**
 
 2. STEP: Create **cardsSpec.js** file in to **../testing/spec** folder
 
-3. STEP: Create **cardstest.html** file in **testing** folder
+3. STEP: Create **cardstest.html** file in a **testing** folder
 
 4. STEP: In **cardstest.html** create basic **<!DOCTYPE html>** structure with **`<html>`**, **`<head>`** opening and closing tags
 
@@ -114,11 +114,11 @@ Behavior-driven development framework for testing JavaScript code.
 
 #### Testing Validation Functions for EMAILJS API Newsletter services
 
-1. STEP: Create **testing** folder in project root folder - **../testing**
+1. STEP: Create a **testing** folder in the project root folder - **../testing**
 
 2. STEP: Create **emailnewsSpec.js** file in to **../testing/spec** folder
 
-3. STEP: Create **emailnewstest.html** file in **testing** folder
+3. STEP: Create **emailnewstest.html** file in a **testing** folder
 
 4. STEP: In **emailnewstest.html** create basic **<!DOCTYPE html>** structure with **`<html>`**, **`<head>`** opening and closing tags
 
