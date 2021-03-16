@@ -481,7 +481,7 @@ DB connection details are stored in an env.py for development, for security reas
 * Validation tests are covered in **[TESTING.MD](https://github.com/tsokac2/newIrishLife.3.0/blob/main/TESTING.md)** file
 
 ## # [JASMINE BEHAVIOR-DRIVEN JavaScript](https://jasmine.github.io)
-* Full testing and implementation process described in **[TESTING.MD](https://github.com/tsokac2/newIrishLife.3.0/blob/main/TESTING.md)** file 
+* Full testing and implementation process described in **[TESTING.MD](https://github.com/tsokac2/newIrishLife.3.0/blob/main/TESTING.md#Jasmine)** file 
 
 ## # [FONTAWESOME](https://fontawesome.com/) 
 * Use mostly for menu items and across projects elements
