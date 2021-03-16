@@ -78,22 +78,22 @@ there was a lot of info about life in Ireland, but not essentials information in
   * The main purpose is represented with a short introduction paragraph and hero image gallery.
   * Website content is pointed with four visual design cards for each section of the site.
   * Footer is well structured and offers links for the main site section and full operating Newsletter form service.
-  * User can share [New Irish Life](http://new-irish-life-3-0.herokuapp.com/home) on four social media links presented in the bottom part of the footer.
+  * Users can share [New Irish Life](http://new-irish-life-3-0.herokuapp.com/home) on four social media links presented in the bottom part of the footer.
   * The main navigation menu and footer are replicated through all main sections of the website.
 
 * Definition by **TRIP** section - As a First Time Visitor, I want to easily understand section purpose with a short and fun intro paragraph and slide-show intro gallery:
-  * User can choose the most popular online travel brands to organize in card elements.
+  * Users can choose the most popular online travel brands to organize in card elements.
   * Each card element contains the main link, the brand website screenshot, the **_"Quick links..."_** option, and a brand description.
-  * User can have access to the best Irish public transportation services.
+  * Users can have access to the best Irish public transportation services.
   * Users can navigate through embedded Google Map with colorful markers representing the most important bus stations, train stations, and tram stations in Dublin, Ireland.
 
 * Definition by **WORK** section - As a First Time Visitor, I want to easily understand how to start a job search process with the best possible preparation for the Irish work market:
   * Users can quickly understand where to start the job search process.
-  * User can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.3.0/static/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission.
-  * User can find the best option for online education with the best offers.
+  * Users can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.3.0/static/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission.
+  * Users can find the best option for online education with the best offers.
 
 * Definition by **LIFE** section - As a First Time Visitor, I want to easily find the best online rental marketplaces, the most popular mobile networks provider, and large-chain grocery shops
-  * User can choose one of the four most popular Irish online rental portals with quick links for share accommodation or buy options.
+  * Users can choose one of the four most popular Irish online rental portals with quick links for share accommodation or buy options.
   * Users can quickly decide for best mobile network providers regarding broadband speed, bill pay offers, Tv broadband offers.
   * Users can check the four largest grocery shop chains with previous user reviews, best deals, work offerings.
 
@@ -148,7 +148,7 @@ there was a lot of info about life in Ireland, but not essentials information in
 
 **14.** Plan and implement Emailjs API service for Newsletter form.
 
-**15.** Take notes for all major development issue, their solutions, challenges, project credits, and SLACK community guidance.
+**15.** Take notes for all major development issues, their solutions, challenges, project credits, and SLACK community guidance.
 
 
 ### Wireframes
@@ -254,7 +254,7 @@ The Main Menu is placed on to header and footer part of the website.
 
 The  Main Menu bar is designed for large and small devices for the best UX.
 
-Welcoming **Home** _"Hero"_ section; **Home** image composition section followed with four cards with _Trip_, _Work_, _Study_ ,and _News_ headings is replicated through the website.
+Welcoming **Home** _"Hero"_ section; **Home** image composition section followed with four cards with _Trip_, _Work_, _Study_ ,and _News_ headings are replicated through the website.
 
 ### Features Left to Implement
 
@@ -306,13 +306,13 @@ _**SASS IMPLEMENTATION AND FOLDER STRUCTURE**_
 * All files in the above folders **MUST** be named with the following naming conventions: `_filename.scss`
 
 ## # [NODE.JS](https://nodejs.org/en/)
-* Use for NPM `package.json` file implemetation in to project root
+* Use for NPM `package.json` file implementation into the project root
 
 ## # [NPM](https://www.npmjs.com/)
 * Package manager - Use package - `node-sass`
 
 ## # [JAVASCRIPT](https://www.javascript.com/)
-Features: _Dom Events_, _Validation of User’s Input_, _Else and If Statement_, _Handling Events_,  _In Built Function_
+Features: _Dom Events_, _Validation of User’s Input_, _Else and If Statement_, _Handling Events_,  _In-Built Function_
 
 ## # [JQUERY](https://fonts.google.com/)
 **APPLIED jQuery DOM EVENTS** for highlighting **_"Quick Links"_** cards elements
@@ -323,7 +323,7 @@ Every card element contains the _MAIN LINK_ source to the external services prov
 
 **_base.html_** template contains <div class="blur"> just after opening tag for the background _"fade-out"_ effect
 
-**jQuery DOM Events** used for above-mentioned cards element functionality:
+**jQuery DOM Events** used for the above-mentioned cards element functionality:
 
 * Element with id **#showLinks1** was clicked
 * `var thisCardLinkShow = "." + this.id + "-grid";` checking for `<div>` element with class `.showLinks1-grid`
@@ -487,7 +487,7 @@ DB connection details are stored in an env.py for development, for security reas
 * Use mostly for menu items and across projects elements
 
 ## # [GIT](https://git-scm.com/)
-* Distributed version control system
+* A distributed version control system
 
 ## # [GITHUB](https://github.com/)
 * Project files hosting platform
@@ -518,7 +518,7 @@ DB connection details are stored in an env.py for development, for security reas
 * CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 * JavaScript code must pass through the [JSHint Validator](https://jshint.com/).
 * Python Code must pass through [PEP8 Validator](http://pep8online.com/).
-* Python Code must pass through [Unit testing framework](https://docs.python.org/3/library/unittest.html).
+* Python Code must pass through the [Unit testing framework](https://docs.python.org/3/library/unittest.html).
 
 
 ### Test Cases and Description
@@ -566,7 +566,7 @@ All processed test and result are described in details **[HERE](https://github.c
 
 **2.** Click on the _New_ button
 
-**3.** Select create a _New App_
+**3.** Select Create a _New App_
 
 **4.** Enter the app name
 
