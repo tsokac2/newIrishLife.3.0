@@ -525,8 +525,6 @@ DB connection details are stored in an env.py for development, for security reas
 
 ![Test Cases](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/test_cases.PNG)
 
-### Access Requirements
-The tester must have access to MongoDB to manually verify the insertion of records to users and tips collections.
 
 ### Regression Testing
 All features previously tested during development in a local environment must be regression tested in production on the live website.
