@@ -228,7 +228,7 @@ Formatted in three main sub-sections:
 Section with the option to _login_ to a user profile for full website management
 
 Formatted in three main sub-sections:
-* **_Already a member_** Login form including inputs fields for; _Username_, _Password_ ,and _Login_ button
+* **_Already a member_** Login form including inputs fields for; _Username_, _Password_, and _Login_ button
 * Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
 * Home hero area with photo composition styling
 
@@ -254,7 +254,7 @@ The Main Menu is placed on to header and footer part of the website.
 
 The  Main Menu bar is designed for large and small devices for the best UX.
 
-Welcoming **Home** _"Hero"_ section; **Home** image composition section followed with four cards with _Trip_, _Work_, _Study_ ,and _News_ headings are replicated through the website.
+Welcoming **Home** _"Hero"_ section; **Home** image composition section followed with four cards with _Trip_, _Work_, _Study_, and _News_ headings are replicated through the website.
 
 ### Features Left to Implement
 
@@ -321,7 +321,7 @@ _TRIP_, _WORK_, and _LIFE_ sections are containing **_Quick Links_** card elemen
 
 Every card element contains the _MAIN LINK_ source to the external services provider and a **_"Quick Links..."_** button element for loading detailed links when the user chose the services provider destination. **[EXAMPLE](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/wireframes/quicklinks_life.png)**
 
-**_base.html_** template contains <div class="blur"> just after opening tag for the background _"fade-out"_ effect
+**_base.html_** template contains `<div class="blur">` just after opening tag for the background _"fade-out"_ effect
 
 **jQuery DOM Events** used for the above-mentioned cards element functionality:
 
