@@ -89,7 +89,7 @@ there was a lot of info about life in Ireland, but not essentials information in
 
 * Definition by **WORK** section - As a First Time Visitor, I want to easily understand how to start a job search process with the best possible preparation for the Irish work market:
   * Users can quickly understand where to start the job search process.
-  * Users can understand what kind of [CV](https://tsokac2.github.io/newIrishLife.3.0/static/downloads/Tomislav_Sokac_CV.pdf) template is necessary for a successful job search mission.
+  * Users can understand what kind of [CV](https://github.com/tsokac2/newIrishLife.3.0/blob/main/static/downloads/Tomislav%20Sokac_CV.pdf) template is necessary for a successful job search mission.
   * Users can find the best option for online education with the best offers.
 
 * Definition by **LIFE** section - As a First Time Visitor, I want to easily find the best online rental marketplaces, the most popular mobile networks provider, and large-chain grocery shops
