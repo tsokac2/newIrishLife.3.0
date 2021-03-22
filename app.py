@@ -43,7 +43,7 @@ def life():
 
 @app.route("/tips", methods=["GET", "POST"])
 def tips():
-    tips = list(mongo.db.tips.find())
+    tips = list(mongo.db.tips.find().sort("date_added", -1))
     return render_template("tips.html", title="| Tips", tips=tips)
 
 
