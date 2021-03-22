@@ -102,7 +102,7 @@ def profile(username):
         tips = list(mongo.db.tips.find().sort("date_added", -1))
         return render_template(
             "profile.html", username=user["username"], email=user["email"],
-            date_created=user["date_created"])
+            date_created=user["date_created"], tips=tips)
     return render_template(
         "profile.html", title="| Profile", username=username)
 
