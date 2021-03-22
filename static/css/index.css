@@ -1216,7 +1216,78 @@ body {
 .tips-card-wrap {
   padding: 1.5rem;
   background-image: linear-gradient(to bottom, white, #acf4f2);
-  border: 2px solid rgba(5, 65, 68, 0.6); }
+  border: 2px solid rgba(5, 65, 68, 0.6);
+  position: relative; }
+  .tips-card-wrap .ribbon-wrapper {
+    padding: 0; }
+    .tips-card-wrap .ribbon-wrapper .ribbon1 {
+      position: absolute;
+      top: -6.1px;
+      color: white; }
+    .tips-card-wrap .ribbon-wrapper .ribbon1:after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      left: 0;
+      border-top: 6px solid #1855ff; }
+      @media (min-width: 360px) {
+        .tips-card-wrap .ribbon-wrapper .ribbon1:after {
+          border-top: 10px solid #1855ff;
+          border-left: 38px solid transparent;
+          border-right: 40px solid transparent; } }
+      @media (min-width: 576px) {
+        .tips-card-wrap .ribbon-wrapper .ribbon1:after {
+          border-left: 40px solid transparent;
+          border-right: 40px solid transparent; } }
+      @media (min-width: 992px) {
+        .tips-card-wrap .ribbon-wrapper .ribbon1:after {
+          border-left: 45px solid transparent;
+          border-right: 45px solid transparent; } }
+    .tips-card-wrap .ribbon-wrapper .ribbon1 span {
+      position: relative;
+      display: block;
+      text-align: center;
+      background: #1855ff;
+      font-size: .8rem;
+      letter-spacing: 1px;
+      line-height: 1;
+      padding: 7px 8px 5px 8px;
+      border-top-right-radius: 8px;
+      width: 60px;
+      box-shadow: -13px 5px 16px -3px rgba(13, 48, 143, 0.7);
+      -webkit-box-shadow: -13px 5px 16px -3px rgba(13, 48, 143, 0.7);
+      -moz-box-shadow: -13px 5px 16px -3px rgba(13, 48, 143, 0.7); }
+      @media (min-width: 360px) {
+        .tips-card-wrap .ribbon-wrapper .ribbon1 span {
+          font-size: .9rem;
+          width: 70px; } }
+      @media (min-width: 360px) {
+        .tips-card-wrap .ribbon-wrapper .ribbon1 span {
+          font-size: 1.2rem;
+          width: 80px; } }
+      @media (min-width: 992px) {
+        .tips-card-wrap .ribbon-wrapper .ribbon1 span {
+          font-size: 1.5rem;
+          width: 90px; } }
+    .tips-card-wrap .ribbon-wrapper .ribbon1 span:before, .tips-card-wrap .ribbon-wrapper .ribbon1 span:after {
+      position: absolute;
+      content: ""; }
+    .tips-card-wrap .ribbon-wrapper .ribbon1 span:before {
+      height: 6px;
+      width: 6px;
+      left: -6px;
+      top: 0;
+      background: #1855ff; }
+    .tips-card-wrap .ribbon-wrapper .ribbon1 span:after {
+      height: 6px;
+      width: 8px;
+      left: -8px;
+      top: 0;
+      border-radius: 8px 8px 0 0;
+      background: #0d308f; }
   .tips-card-wrap .head-wrap {
     width: 100%;
     margin: 0; }
@@ -1994,6 +2065,44 @@ body {
     @media (min-width: 576px) {
       .flash-success h2 {
         font-size: 2.3rem; } }
+
+.add-tip {
+  padding: .5rem;
+  margin-bottom: 1.5rem;
+  background-color: #a34bb4; }
+  .add-tip h2 {
+    font-family: inherit;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0;
+    margin: .5rem 0;
+    position: relative; }
+    @media (min-width: 360px) {
+      .add-tip h2 {
+        font-size: 1.5rem; } }
+    @media (min-width: 576px) {
+      .add-tip h2 {
+        font-size: 2rem; } }
+  .add-tip a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 3px;
+    display: none; }
+    @media (min-width: 360px) {
+      .add-tip a {
+        display: inline-block;
+        right: 10px; } }
+    @media (min-width: 768px) {
+      .add-tip a {
+        right: 5px; } }
+    @media (min-width: 992px) {
+      .add-tip a {
+        right: 10px; } }
+    .add-tip a:hover {
+      color: #646464;
+      transition: .3s ease-in; }
 
 .flash-danger {
   padding: .5rem;
