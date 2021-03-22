@@ -75,7 +75,7 @@ class AddTip(FlaskForm):
     tip_title = StringField(
         "tip_title", validators=[DataRequired("Enter a tip title!"), Length(
             min=5, message="Must be more than 5 characters!"), Length(
-                max=50, message="Max length 50 characters!")],
+                max=30, message="Max length 30 characters!")],
         render_kw={"placeholder": "Tip Title"})
 
     tip_description = TextAreaField(
