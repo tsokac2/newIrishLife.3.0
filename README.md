@@ -260,6 +260,8 @@ Welcoming **Home** _"Hero"_ section; **Home** image composition section followed
 
 Expansion plan:
 * Implementing comments section for the users, regarding specific website content.
+* Implementing "update your profile" functionality for active users.
+* Implementing file upload functionality for all tips categories such as _*.PDF files_, _image files_, _direct links_. 
 * Implement section for all necessary documentation in Ireland, regarding and PPS number, Bank Account option.
 * Implement section regarding social events and gathering for necessary user connection expansion.
 * Offer **_" Jobs Adds"_** section for recruitment agencies  - a connection between end-user and possible employer or recruitment agent.
