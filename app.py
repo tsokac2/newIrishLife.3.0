@@ -99,8 +99,8 @@ def login():
 def profile(username):
     user = mongo.db.users.find_one({"username": session["user"]})
     if session["user"]:
+        tips = list(mongo.db.tips.find().sort("date_added", -1))
         return render_template(
-            tips = list(mongo.db.tips.find().sort("date_added", -1))
             "profile.html", username=user["username"], email=user["email"],
             date_created=user["date_created"])
     return render_template(
