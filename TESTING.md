@@ -268,3 +268,12 @@ Error:
 ![PY_2](https://github.com/tsokac2/newirishlife.3.0/blob/main/static/wireframes/P1_2.png)
 
 SOLUTION: Define the correct filed name in users collections on MongoDB
+
+
+## Testing WARNINGS
+
+The [New Irish Life](http://new-irish-life-3-0.herokuapp.com/home) project is based on Python and MongoDB for code infrastructure and deployment and "Live" usage on the Heroku platform.
+
+Since developers don't have control of Heroku and MongoDB cloud services/servers, in some rare cases testers can expect console warnings regarding connection links between Heroku and MongoDB that are affecting website performance.
+
+Similar behaviors are spotted during the development and testing process.
