@@ -79,7 +79,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row justify-content-around mtt ">
                     {% if tips|length > 0 %}
                         {% for tip in tips %}
@@ -122,29 +121,29 @@
                                                 </div>
                                             </div>
                                             {% if session.user|lower == tip.created_by|lower %}
-                                                <div class="row justify-content-start post-btn-wrap">
-                                                    <div class="col-12 text-left ">
-                                                        <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
-                                                        <a class="delete-btn" href="#" data-toggle="modal" data-target="#delete-trip" >DELETE</a>
-                                                    </div>
+                                            <div class="row justify-content-start post-btn-wrap">
+                                                <div class="col-12 text-left ">
+                                                    <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
+                                                    <a class="delete-btn" href="#" data-toggle="modal" data-target="#delete-trip" >DELETE</a>
                                                 </div>
-                                                <div class="modal fade" id="delete-trip" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-trip" aria-hidden="true">
-                                                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                                                        <div class="modal-content delete-profile-modal">    
-                                                            <div class="modal-body">
-                                                                <div class="container-fluid p-0">
-                                                                    <div class="row justify-content-center text-center">
-                                                                        <div class="col-12 ">
-                                                                            <h2>Are you sure you want to delete your tip?</h2>
-                                                                            <a class="delete-btn" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
-                                                                            <a href="#" class="no-btn" data-dismiss="modal">NO</a>
-                                                                        </div>
+                                            </div>
+                                            <div class="modal fade" id="delete-trip" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-trip" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content delete-profile-modal">    
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid p-0">
+                                                                <div class="row justify-content-center text-center">
+                                                                    <div class="col-12 ">
+                                                                        <h2>Are you sure you want to delete your tip?</h2>
+                                                                        <a class="delete-btn" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
+                                                                        <a href="#" class="no-btn" data-dismiss="modal">NO</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
                                             {% endif %}
                                         </div>
                                     </div>
@@ -187,29 +186,29 @@
                                                 </div>
                                             </div>
                                             {% if session.user|lower == tip.created_by|lower %}
-                                                <div class="row justify-content-start post-btn-wrap">
-                                                    <div class="col-12 text-left ">
-                                                        <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
-                                                        <a href="#" class="delete-btn" data-toggle="modal" data-target="#delete-work" >DELETE</a>
-                                                    </div>
+                                            <div class="row justify-content-start post-btn-wrap">
+                                                <div class="col-12 text-left ">
+                                                    <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
+                                                    <a href="#" class="delete-btn" data-toggle="modal" data-target="#delete-work" >DELETE</a>
                                                 </div>
-                                                <div class="modal fade" id="delete-work" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-work" aria-hidden="true">
-                                                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                                                        <div class="modal-content delete-profile-modal">    
-                                                            <div class="modal-body">
-                                                                <div class="container-fluid p-0">
-                                                                    <div class="row justify-content-center text-center">
-                                                                        <div class="col-12 ">
-                                                                            <h2>Are you sure you want to delete your tip?</h2>
-                                                                            <a class="delete-btn" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
-                                                                            <a href="#" class="no-btn" data-dismiss="modal">NO</a>
-                                                                        </div>
+                                            </div>
+                                            <div class="modal fade" id="delete-work" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-work" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content delete-profile-modal">    
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid p-0">
+                                                                <div class="row justify-content-center text-center">
+                                                                    <div class="col-12 ">
+                                                                        <h2>Are you sure you want to delete your tip?</h2>
+                                                                        <a class="delete-btn delete-tip" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
+                                                                        <a href="#" class="no-btn" data-dismiss="modal">NO</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
                                             {% endif %}
                                         </div>
                                     </div>
@@ -252,29 +251,29 @@
                                                 </div>
                                             </div>
                                             {% if session.user|lower == tip.created_by|lower %}
-                                                <div class="row justify-content-start post-btn-wrap">
-                                                    <div class="col-12 text-left ">
-                                                        <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
-                                                        <a href="#" class="delete-btn" data-toggle="modal" data-target="#delete-study" >DELETE</a>
-                                                    </div>
+                                            <div class="row justify-content-start post-btn-wrap">
+                                                <div class="col-12 text-left ">
+                                                    <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
+                                                    <a href="#" class="delete-btn" data-toggle="modal" data-target="#delete-study" >DELETE</a>
                                                 </div>
-                                                <div class="modal fade" id="delete-study" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-study" aria-hidden="true">
-                                                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                                                        <div class="modal-content delete-profile-modal">    
-                                                            <div class="modal-body">
-                                                                <div class="container-fluid p-0">
-                                                                    <div class="row justify-content-center text-center">
-                                                                        <div class="col-12 ">
-                                                                            <h2>Are you sure you want to delete your tip?</h2>
-                                                                            <a class="delete-btn" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
-                                                                            <a href="#" class="no-btn" data-dismiss="modal">NO</a>
-                                                                        </div>
+                                            </div>
+                                            <div class="modal fade" id="delete-study" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-study" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content delete-profile-modal">    
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid p-0">
+                                                                <div class="row justify-content-center text-center">
+                                                                    <div class="col-12 ">
+                                                                        <h2>Are you sure you want to delete your tip?</h2>
+                                                                        <a class="delete-btn" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
+                                                                        <a href="#" class="no-btn" data-dismiss="modal">NO</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
                                             {% endif %}
                                         </div>
                                     </div>
@@ -317,29 +316,29 @@
                                                 </div>
                                             </div>
                                             {% if session.user|lower == tip.created_by|lower %}
-                                                <div class="row justify-content-start post-btn-wrap">
-                                                    <div class="col-12 text-left ">
-                                                        <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
-                                                        <a href="#" class="delete-btn" data-toggle="modal" data-target="#delete-food" >DELETE</a>
-                                                    </div>
+                                            <div class="row justify-content-start post-btn-wrap">
+                                                <div class="col-12 text-left ">
+                                                    <a class="update-btn" href="{{ url_for('update_tip', tip_id=tip._id) }}">UPDATE</a>
+                                                    <a href="#" class="delete-btn" data-toggle="modal" data-target="#delete-food" >DELETE</a>
                                                 </div>
-                                                <div class="modal fade" id="delete-food" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-food" aria-hidden="true">
-                                                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                                                        <div class="modal-content delete-profile-modal">    
-                                                            <div class="modal-body">
-                                                                <div class="container-fluid p-0">
-                                                                    <div class="row justify-content-center text-center">
-                                                                        <div class="col-12 ">
-                                                                            <h2>Are you sure you want to delete your tip?</h2>
-                                                                            <a class="delete-btn" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
-                                                                            <a href="#" class="no-btn" data-dismiss="modal">NO</a>
-                                                                        </div>
+                                            </div>
+                                            <div class="modal fade" id="delete-food" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="delete-food" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content delete-profile-modal">    
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid p-0">
+                                                                <div class="row justify-content-center text-center">
+                                                                    <div class="col-12 ">
+                                                                        <h2>Are you sure you want to delete your tip?</h2>
+                                                                        <a class="delete-btn" href="{{ url_for('delete_tip', tip_id=tip._id) }}">YES</a>
+                                                                        <a href="#" class="no-btn" data-dismiss="modal">NO</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
                                             {% endif %}
                                         </div>
                                     </div>
