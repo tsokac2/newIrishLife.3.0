@@ -249,6 +249,9 @@ Formatted in three main sub-sections and functionalities:
 * Active user has an option to **_CREATE_** appropriate title for the posted tip
 * Active user has an option to **_UPLOAD_** appropriate title description
 * After successful tip **_POST_** user is receiving a message for successful tip **_UPLOAD_**
+* Overview of the website purpose displayed in four cards - Trip, Work, Life, News
+* Home hero area with photo composition styling
+
 
 Formatted in three main sub-sections:
 * **_Create new tip_** Input form including inputs fields for; Choose Category, Tip Title, Tip description, and Post button
