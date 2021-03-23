@@ -214,7 +214,7 @@ Section with tips and useful advice from other users
 Formatted in three main sub-sections:
 * **_TIPS_** Introduction and purpose of the tips section
 * **_SEARCH_** Ability to search posted tips by referring to tip title and tip description
-* Tips cards container with four tip categories including  _Trip_, _Work_, _Study_, and _Food_ 
+* Ability for active user to see their posted tips with **_"Your tip"_** marker ribbon and option for **_UPDATE_** or **_DELETE_** the active user tips
 
 ## SIGN UP
 Section with the option to _create_ a user profile for full website management
@@ -237,12 +237,18 @@ Section for user profile details and delete option
 
 Formatted in three main sub-sections:
 * **_Profile info_** User details listed in the following order; _Username_, _Email_, _Joined Date_
-* Option for the user to _delete_ profile
+* Option for the user to **_DELETE_** profile
 * Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
 * Home hero area with photo composition styling
 
 ## ADD TIP
 Section for active users to write and upload useful tips
+
+Formatted in three main sub-sections and functionalities: 
+* Active user has an option to chose from 4 tips categories: **_Trip_**, **_Work_**, **_Study_**, **_Food_**
+* Active user has an option to **_CREATE_** appropriate title for the posted tip
+* Active user has an option to **_UPLOAD_** appropriate title description
+* After successful tip **_POST_** user is receiving a message for successful tip **_UPLOAD_**
 
 Formatted in three main sub-sections:
 * **_Create new tip_** Input form including inputs fields for; Choose Category, Tip Title, Tip description, and Post button
