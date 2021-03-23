@@ -10,6 +10,7 @@
   * [Jasmine](#Jasmine)
 * [W3 Validator Errors and Solutions](#W3-Validator-Errors-and-Solutions)
 * [Developer Tools Console Logs Errors and Solutions](#Developer-Tools-Console-Logs-Errors-and-Solutions)
+* [Testing WARNINGS](#Testing-WARNINGS)
 
 ****
 
