@@ -253,11 +253,6 @@ Formatted in three main sub-sections and functionalities:
 * Home hero area with photo composition styling
 
 
-Formatted in three main sub-sections:
-* **_Create new tip_** Input form including inputs fields for; Choose Category, Tip Title, Tip description, and Post button
-* Overview of the website purpose displayed in four cards - **_Trip_**, **_Work_**, **_Life_**, **_News_**
-* Home hero area with photo composition styling
-
 ## CROS-PROJECT FEATURES
 The Main Menu is placed on to header and footer part of the website.
 
